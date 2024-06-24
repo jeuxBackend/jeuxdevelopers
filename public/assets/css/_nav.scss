@@ -1,0 +1,43 @@
+.navbar-expand-lg{
+    top:43px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+}
+.call-btn{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    &:hover{
+        color: white;
+    }
+}
+.whatsapp-btn{
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    &:hover{
+        color: black;
+    }
+}
+.contact-btn{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 7px;
+    &:hover{
+        color: white;
+    }
+}

@@ -1,0 +1,117 @@
+.home-banner {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    .lcd-div,
+    .cofee-cup-div,
+    .home-page-heading,
+    .mouse-div,
+    .keyboard-div {
+        pointer-events: none;
+    }
+
+    .lcd-div {
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .cofee-cup-div {
+        position: absolute;
+        top: 35%;
+        left: 9%;
+        z-index: 1; 
+    }
+
+    .home-page-heading {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+                width: 100%;
+        text-align: center; 
+        z-index: 1; 
+    }
+
+    .mouse-div {
+        position: absolute;
+        bottom: 13%;
+        right: 15%;
+        z-index: 1; 
+    }
+
+    .keyboard-div {
+        position: absolute;
+        bottom: -100px;
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 1;
+    }
+}
+.carasoule{
+    background-color: #ffffff;
+    box-shadow: 4px 4px 3px whitesmoke;
+}
+.primary-service{
+    .primary-text{
+        top: -23px !important;
+    }
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    // background-color:  !important;
+    overflow: hidden;
+  }
+
+  .box {
+    position: absolute;
+    background-color: #ff6000;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    z-index: 0;
+  }
+  .box:hover {
+    transform: scale(1.5);
+    z-index: 1 !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+
+  }
+  .read-more-arrow{
+    padding: 10px 15px 10px 15px;
+    margin-top: 23px;
+    cursor: pointer;
+  }
+  .read-more-arrow-hover{
+    background-color: #ff6000 !important;
+    color: white;
+  }
+  .read-more-btn{
+    visibility: hidden;
+  }
+  .read-more-btn-hover{
+    visibility: visible !important;
+  }
+  .services-card-hover{
+    background-color: #ff6000 !important;
+    // transition: all 0.40s ease-out;
+    color: white;
+  }
+
+// portfolio style
+.portfolio-banner{
+background-image: url('../images/portfolio-bg.png');
+height: 80vh;
+width:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+.portfolio-text{
+  top: -23px !important;
+}
+}

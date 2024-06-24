@@ -1,0 +1,33 @@
+.fs-55{
+    font-size: 50px;
+}
+.radius-20{
+    border-radius: 20px;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.hexagon{
+    height:200px !important;
+    width: 200px !important;
+    background-image: url('../images/hexagon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 60px;
+    position: relative;
+}
+.outer-img{
+    top:50px;
+    left: 50px;
+    cursor: pointer;
+}
+.inner-img{
+    top:24px;
+    left: 30px;
+    cursor: pointer;
+    display: none;
+}
+.display-block{
+    display: block;
+}
