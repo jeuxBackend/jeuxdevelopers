@@ -328,94 +328,96 @@
             <div class="py-5 ps-5 mt-5 bg-light-orange multiple-items">
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/healthcare.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Healthcare</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/healthcare-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/e-commerce.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">E-Commerce</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/e-commerce-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/education.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Education</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/education-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/real.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Real Estate</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/real-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/social.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Social Network</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/social-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/gaming.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Gaming</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/gaming-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/travel.png') }}" alt="" class="hover-img"
+                            width="165px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Travel Tourism</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/travel-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
                 <div class="hexagon">
                     <div class="outer-img position-absolute d-flex flex-column align-items-center">
-                        <img src="{{ asset('assets/images/skills/mobile-icon.png') }}" alt="" class="hover-img"
-                            width="70px">
-                        <p class="mb-0 mt-1 fw-bold">E - Commerce</p>
+                        <img src="{{ asset('assets/images/skills/solutions.png') }}" alt="" class="hover-img"
+                            width="164px">
+                        {{-- <p class="mb-0 mt-1 fw-bold">Customized Solutions</p> --}}
                     </div>
                     <div class="inner-img position-absolute">
-                        <img src="{{ asset('assets/images/skills/hexa2.png') }}" alt="" class=""
-                            width="140px">
+                        <img src="{{ asset('assets/images/skills/solutions-active.png') }}" alt="" class=""
+                            width="165px">
                     </div>
                 </div>
             </div>
         </div>
+
+
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>

@@ -18,13 +18,14 @@
     position: relative;
 }
 .outer-img{
-    top:50px;
-    left: 50px;
+    top:16px;
+    left: 18px;
     cursor: pointer;
+    display: none;
 }
 .inner-img{
-    top:24px;
-    left: 30px;
+    top:16px;
+    left: 18px;
     cursor: pointer;
     display: none;
 }
