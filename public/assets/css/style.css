@@ -22,8 +22,28 @@
   color: #98a5b9;
 }
 
+.bg-yellow {
+  background-color: #ffc600;
+}
+
+.text-blue {
+  color: #00274d;
+}
+
+.fs-75 {
+  font-size: 75px;
+}
+
 .fs-55 {
   font-size: 50px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fw-600 {
+  font-weight: 600;
 }
 
 .radius-20 {
@@ -34,33 +54,68 @@
   border-radius: 10px;
 }
 
+.radius-30 {
+  border-radius: 30px;
+}
+
+.radius-50 {
+  border-radius: 50px;
+}
+
+.portfolio-slider {
+  background-color: #fa6b12;
+}
+
 .hexagon {
   height: 200px !important;
   width: 200px !important;
-  background-image: url("../images/hexagon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-left: 60px;
+  margin-left: 100px;
   position: relative;
+  overflow: hidden;
 }
 
 .outer-img {
-  top: 16px;
-  left: 18px;
+  top: 12px;
+  left: -8px;
   cursor: pointer;
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 200px;
+  height: 165px;
+  z-index: 0;
 }
 
 .inner-img {
   top: 16px;
-  left: 18px;
+  right: -135px;
   cursor: pointer;
-  display: none;
+  visibility: hidden;
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  transition: transform 1s ease-in-out;
+  z-index: 0 !important;
 }
 
-.display-block {
-  display: block;
+.hexagon:hover .inner-img {
+  transform: translateX(-97%);
+  visibility: visible;
+}
+
+.hexagon-ring {
+  z-index: 1 !important;
+}
+
+.hexagon-outer {
+  width: 200px;
+}
+.hexagon-outer p {
+  margin-left: 30px;
 }
 
 .home-banner {
@@ -176,6 +231,58 @@
 }
 .portfolio-banner .portfolio-text {
   top: -23px !important;
+}
+
+.estate-pie-box {
+  height: 100vh;
+  background-color: #bbeafb;
+  position: relative;
+  top: 110px;
+}
+
+.carchive-app-box {
+  height: 100vh;
+  background-color: #ff5b00;
+  position: relative;
+  top: 130px;
+}
+.carchive-app-box .learn-more, .carchive-app-box .carchive-img {
+  z-index: 1 !important;
+  position: relative;
+}
+
+.estate-pie-app-box {
+  height: 100vh;
+  background-color: #00274d;
+  position: relative;
+  top: 150px;
+}
+
+.carchive-web-box {
+  height: 100vh;
+  background-color: #ff5b00;
+  position: relative;
+  top: 170px;
+}
+.carchive-web-box .learn-more {
+  z-index: 1 !important;
+  position: relative;
+}
+
+.about-jeux-deevelopers {
+  height: 100vh;
+  position: relative;
+  top: 170px;
+}
+.about-jeux-deevelopers .project-detail {
+  background-image: url("../images/about-jeux-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jeux-developers-heading .jeux-text {
+  top: -30px;
 }
 
 .navbar-expand-lg {
