@@ -72,13 +72,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-left: 100px;
   position: relative;
   overflow: hidden;
 }
 
 .outer-img {
-  top: 12px;
+  top: 10px;
   left: -8px;
   cursor: pointer;
   display: flex;
@@ -92,19 +91,30 @@
 
 .inner-img {
   top: 16px;
-  right: -135px;
+  right: 25px;
   cursor: pointer;
   visibility: hidden;
   position: absolute;
   width: 165px;
   height: 165px;
-  transition: transform 1s ease-in-out;
   z-index: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+}
+.inner-img img {
+  transition: 1s width;
+  width: 0%;
 }
 
 .hexagon:hover .inner-img {
-  transform: translateX(-97%);
+  transition: 1s width;
   visibility: visible;
+}
+.hexagon:hover .inner-img img {
+  width: 100%;
+  transition: 1s width;
 }
 
 .hexagon-ring {
@@ -113,9 +123,10 @@
 
 .hexagon-outer {
   width: 200px;
-}
-.hexagon-outer p {
-  margin-left: 30px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-banner {
@@ -213,17 +224,25 @@
 }
 
 .read-more-btn-hover {
+  transition: 1s all;
   visibility: visible !important;
+}
+
+.services-card {
+  background-color: #fff !important;
+  color: #696969 !important;
+  transition: 500ms all;
 }
 
 .services-card-hover {
   background-color: #ff6000 !important;
-  color: white;
+  transition: 500ms all;
+  color: white !important;
 }
 
 .portfolio-banner {
   background-image: url("../images/portfolio-bg.png");
-  height: 80vh;
+  min-height: 80vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,32 +253,33 @@
 }
 
 .estate-pie-box {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #bbeafb;
   position: relative;
   top: 110px;
 }
 
 .carchive-app-box {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ff5b00;
   position: relative;
   top: 130px;
 }
-.carchive-app-box .learn-more, .carchive-app-box .carchive-img {
+.carchive-app-box .learn-more,
+.carchive-app-box .carchive-img {
   z-index: 1 !important;
   position: relative;
 }
 
 .estate-pie-app-box {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #00274d;
   position: relative;
   top: 150px;
 }
 
 .carchive-web-box {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ff5b00;
   position: relative;
   top: 170px;
@@ -270,7 +290,7 @@
 }
 
 .about-jeux-deevelopers {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   top: 170px;
 }

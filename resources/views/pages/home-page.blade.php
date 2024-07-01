@@ -465,7 +465,7 @@
             </div>
         </div>
 
-        <div class="estate-pie-box mx-5 radius-20 d-flex align-items-center">
+        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 radius-20 row align-items-center">
             <div class="estate-pie-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
                     <div class="esate-pie-logo">
@@ -484,13 +484,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 px-0 text-end mt-lg-0 mt-2">
                 <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class="img-fluid"
                     width="100%">
             </div>
         </div>
 
-        <div class="carchive-app-box mx-5 radius-20 d-flex align-items-center">
+        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
             <div class="left-corner d-flex justify-content-end position-absolute top-0 end-0">
                 <img src="{{ asset('assets/images/left-corner.png') }}" alt="" width="200px">
             </div>
@@ -516,13 +516,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 text-end">
+            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
                 <img src="{{ asset('assets/images/carchive-img.png') }}" alt=""
-                    class="me-5 carchive-img img-fluid" width="60%">
+                    class="me-lg-5 carchive-img img-fluid col-lg-7 col-10">
             </div>
         </div>
 
-        <div class="estate-pie-app-box mx-5 radius-20 d-flex align-items-center">
+        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
             <div class="estate-pie-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
                     <div class="esate-pie-app-logo">
@@ -541,13 +541,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7">
-                <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt="" class="img-fluid"
-                    width="100%">
+            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
+                <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt="" class="img-fluid col-lg-12">
             </div>
         </div>
 
-        <div class="carchive-web-box mx-5 radius-20 d-flex align-items-center">
+        <div class="carchive-web-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
             <div class="right-corner d-flex justify-content-end position-absolute bottom-0 start-0">
                 <img src="{{ asset('assets/images/right-corner.png') }}" alt="" width="235px">
             </div>
@@ -570,9 +569,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 text-end">
+            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
                 <img src="{{ asset('assets/images/carchive-web-img.png') }}" alt=""
-                    class="me-5 carchive-web-img img-fluid" width="98%">
+                    class="me-lg-5 carchive-web-img img-fluid" width="98%">
             </div>
         </div>
 
@@ -598,25 +597,25 @@
                 <div class="d-flex flex-wrap">
                     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
                         <span>
-                            <img src="{{asset('assets/images/hundred.png')}}" alt="" width="150px">
+                            <img src="{{ asset('assets/images/hundred.png') }}" alt="" width="150px">
                         </span>
                         <p class="text-white fs-6 text-center mt-lg-3">Successfully Completed <br> Projects</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
                         <span>
-                            <img src="{{asset('assets/images/3hundred.png')}}" alt="" width="150px">
+                            <img src="{{ asset('assets/images/3hundred.png') }}" alt="" width="150px">
                         </span>
                         <p class="text-white fs-6 text-center mt-lg-2">In-House Engineers</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
                         <span>
-                            <img src="{{asset('assets/images/twenty.png')}}" alt="" width="150px">
+                            <img src="{{ asset('assets/images/twenty.png') }}" alt="" width="150px">
                         </span>
                         <p class="text-white fs-6 text-center">Industries Served</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-3 d-flex align-items-center flex-column">
                         <span>
-                            <img src="{{asset('assets/images/sixty5.png')}}" alt="" width="150px">
+                            <img src="{{ asset('assets/images/sixty5.png') }}" alt="" width="150px">
                         </span>
                         <p class="text-white fs-6 text-center mb-0">Clutch Reviews</p>
                     </div>
@@ -671,7 +670,7 @@
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 764,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
@@ -679,9 +678,9 @@
 
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 564,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                     }
 
@@ -710,7 +709,7 @@
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 764,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
@@ -718,9 +717,9 @@
 
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 564,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                     }
 
@@ -748,17 +747,17 @@
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 764,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     }
 
                 },
                 {
-                    breakpoint: 480,
+                    breakpoint: 564,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                     }
 
