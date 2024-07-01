@@ -23,7 +23,7 @@
         position: absolute;
         top: 35%;
         left: 9%;
-        z-index: 1; 
+        z-index: 1;
     }
 
     .home-page-heading {
@@ -31,32 +31,32 @@
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
-                width: 100%;
-        text-align: center; 
-        z-index: 1; 
+        width: 100%;
+        text-align: center;
+        z-index: 1;
     }
 
     .mouse-div {
         position: absolute;
         bottom: 13%;
         right: 15%;
-        z-index: 1; 
+        z-index: 1;
     }
 
     .keyboard-div {
         position: absolute;
         bottom: -100px;
-        left: 50%; 
-        transform: translateX(-50%); 
+        left: 50%;
+        transform: translateX(-50%);
         z-index: 1;
     }
 }
-.carasoule{
+.carasoule {
     background-color: #ffffff;
     box-shadow: 4px 4px 3px whitesmoke;
 }
-.primary-service{
-    .primary-text{
+.primary-service {
+    .primary-text {
         top: -23px !important;
     }
 }
@@ -67,121 +67,127 @@
     height: 100vh;
     // background-color:  !important;
     overflow: hidden;
-  }
+}
 
-  .box {
+.box {
     position: absolute;
     background-color: #ff6000;
     transition: transform 0.3s ease;
     border: 1px solid rgba(225, 225, 225, 0.1);
     z-index: 0;
-  }
-  .box:hover {
+}
+.box:hover {
     transform: scale(1.5);
     z-index: 1 !important;
     border: 1px solid rgba(225, 225, 225, 0.4) !important;
-
-  }
-  .read-more-arrow{
+}
+.read-more-arrow {
     padding: 10px 15px 10px 15px;
     margin-top: 23px;
     cursor: pointer;
-  }
-  .read-more-arrow-hover{
+}
+.read-more-arrow-hover {
     background-color: #ff6000 !important;
     color: white;
-  }
-  .read-more-btn{
+    // transition: 1s all;
+}
+.read-more-btn {
+    // transition: 500ms all;
     visibility: hidden;
-  }
-  .read-more-btn-hover{
+}
+.read-more-btn-hover {
+    transition: 1s all;
     visibility: visible !important;
-  }
-  .services-card-hover{
+}
+.services-card {
+    background-color: #fff !important;
+    color: #696969 !important;
+    transition: 500ms all;
+}
+.services-card-hover {
     background-color: #ff6000 !important;
-    // transition: all 0.40s ease-out;
-    color: white;
-  }
+    transition: 500ms all;
+    color: white !important;
+}
 
 // portfolio style
-.portfolio-banner{
-background-image: url('../images/portfolio-bg.png');
-height: 80vh;
-width:100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-.portfolio-text{
-  top: -23px !important;
-}
+.portfolio-banner {
+    background-image: url("../images/portfolio-bg.png");
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .portfolio-text {
+        top: -23px !important;
+    }
 }
 
 // Estate pie box styling
 
-.estate-pie-box{
-  height: 100vh;
-  // width: 100%;
-  background-color: #bbeafb;
-  position: relative;
-  top: 110px;
+.estate-pie-box {
+    min-height: 100vh;
+    // width: 100%;
+    background-color: #bbeafb;
+    position: relative;
+    top: 110px;
 }
 
 // carchive app box styling
 
-.carchive-app-box{
-  height: 100vh;
-  // width: 100%;
-  background-color: #ff5b00;
-  position: relative;
-  top: 130px;
-    .learn-more , .carchive-img{
-      z-index: 1 !important;
-      position: relative;
+.carchive-app-box {
+    min-height: 100vh;
+    // width: 100%;
+    background-color: #ff5b00;
+    position: relative;
+    top: 130px;
+    .learn-more,
+    .carchive-img {
+        z-index: 1 !important;
+        position: relative;
     }
-
 }
 
 // Estate pie app box styling
 
-.estate-pie-app-box{
-  height: 100vh;
-  // width: 100%;
-  background-color: #00274d;
-  position: relative;
-  top: 150px;
+.estate-pie-app-box {
+    min-height: 100vh;
+    // width: 100%;
+    background-color: #00274d;
+    position: relative;
+    top: 150px;
 }
 
 // carchive web box styling
 
-.carchive-web-box{
-  height: 100vh;
-  // width: 100%;
-  background-color: #ff5b00;
-  position: relative;
-  top: 170px;
-    .learn-more{
-      z-index: 1 !important;
-      position: relative;
+.carchive-web-box {
+    min-height: 100vh;
+    // width: 100%;
+    background-color: #ff5b00;
+    position: relative;
+    top: 170px;
+    .learn-more {
+        z-index: 1 !important;
+        position: relative;
     }
-
 }
 
 // About jeux developers page styling
 
-.about-jeux-deevelopers{
-  height: 100vh;
-  // width: 100%;
-  position: relative;
-  top: 170px;
-  .project-detail{
-    background-image: url('../images/about-jeux-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+.about-jeux-deevelopers {
+    min-height: 100vh;
+    // width: 100%;
+    position: relative;
+    top: 170px;
+    .project-detail {
+        background-image: url("../images/about-jeux-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
-.jeux-developers-heading{
-  .jeux-text{
-    top:-30px;
-  }
+.jeux-developers-heading {
+    .jeux-text {
+        top: -30px;
+    }
 }
