@@ -64,32 +64,32 @@
             </div>
             <div class="ms-2 multiple-items2" dir="rtl">
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/css.png') }}" alt="" width="200">
                     </a>
                 </div>
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/next.png') }}" alt="" width="200">
                     </a>
                 </div>
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/swift.png') }}" alt="" width="200">
                     </a>
                 </div>
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/java.png') }}" alt="" width="200">
                     </a>
                 </div>
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/html.png') }}" alt="" width="200">
                     </a>
                 </div>
                 <div>
-                    <a href="#!" class="btn px-2 shadow-none">
+                    <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/flutter.png') }}" alt="" width="200">
                     </a>
                 </div>
