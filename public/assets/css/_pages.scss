@@ -115,3 +115,73 @@ background-size: cover;
   top: -23px !important;
 }
 }
+
+// Estate pie box styling
+
+.estate-pie-box{
+  height: 100vh;
+  // width: 100%;
+  background-color: #bbeafb;
+  position: relative;
+  top: 110px;
+}
+
+// carchive app box styling
+
+.carchive-app-box{
+  height: 100vh;
+  // width: 100%;
+  background-color: #ff5b00;
+  position: relative;
+  top: 130px;
+    .learn-more , .carchive-img{
+      z-index: 1 !important;
+      position: relative;
+    }
+
+}
+
+// Estate pie app box styling
+
+.estate-pie-app-box{
+  height: 100vh;
+  // width: 100%;
+  background-color: #00274d;
+  position: relative;
+  top: 150px;
+}
+
+// carchive web box styling
+
+.carchive-web-box{
+  height: 100vh;
+  // width: 100%;
+  background-color: #ff5b00;
+  position: relative;
+  top: 170px;
+    .learn-more{
+      z-index: 1 !important;
+      position: relative;
+    }
+
+}
+
+// About jeux developers page styling
+
+.about-jeux-deevelopers{
+  height: 100vh;
+  // width: 100%;
+  position: relative;
+  top: 170px;
+  .project-detail{
+    background-image: url('../images/about-jeux-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.jeux-developers-heading{
+  .jeux-text{
+    top:-30px;
+  }
+}
