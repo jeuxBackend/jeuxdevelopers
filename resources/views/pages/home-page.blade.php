@@ -30,7 +30,7 @@
             </div>
         </header>
         <div class="carasoule position-relative py-3 mb-5 col-12">
-            <div class="ms-5 multiple-items">
+            <div class="ms-lg-5 ms-md-5 mx-lg-0 mx-md-0 mx-3 multiple-items">
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
                         <img src="{{ asset('assets/images/skills/angular.png') }}" alt="" width="200px">
@@ -62,7 +62,7 @@
                     </a>
                 </div>
             </div>
-            <div class="ms-2 multiple-items2" dir="rtl">
+            <div class="ms-lg-3 ms-md-3 mx-lg-0 mx-md-0 mx-2 multiple-items2" dir="rtl">
                 <div>
                     <a href="#!" class="btn shadow-none">
                         <img src="{{ asset('assets/images/skills/css.png') }}" alt="" width="200">
@@ -97,18 +97,18 @@
         </div>
         <div class="primary-service">
             <div class="service-heading">
-                <div class="d-flex flex-column align-items-center position-relative">
+                <div class="d-flex flex-column align-items-center mx-lg-0 mx-md-0 mx-3 position-relative">
                     <img src="{{ asset('assets/images/primary-text.png') }}" alt="" width="550px"
                         class="img-fluid position-absolute primary-text">
                     <img src="{{ asset('assets/images/primary-service.png') }}" alt="" width="650px"
                         class="img-fluid">
                 </div>
-                <p class="text-center fs-5 text-cadet-grey">
+                <p class="text-center fs-5 text-cadet-grey mx-lg-0 mx-md-0 mx-2">
                     Call Us A Product Partner, A Product Studio, Or A Full-Stack App Development <br>
                     Agency. What We Do Stays The Same, And That's Product Services.
                 </p>
             </div>
-            <div class="row mx-5 my-5">
+            <div class="row mx-lg-5 mx-md-3 mx-2 my-lg-5 my-md-5 my-2">
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
                         <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
@@ -310,7 +310,7 @@
             </div>
         </div>
 
-        <div class="portfolio-banner my-4 py-5">
+        {{-- <div class="portfolio-banner my-4 py-5" id="">
             <div class="portfolio-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
@@ -463,9 +463,9 @@
                     <p class="w-100 text-center fs-4 fw-bold text-white">Heathcare</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 radius-20 row align-items-center">
+        {{-- <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 radius-20 row align-items-center">
             <div class="estate-pie-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
                     <div class="esate-pie-logo">
@@ -488,14 +488,14 @@
                 <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class="img-fluid"
                     width="100%">
             </div>
-        </div>
-
+        </div> --}}
+{{-- 
         <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
-            <div class="left-corner d-flex justify-content-end position-absolute top-0 end-0">
-                <img src="{{ asset('assets/images/left-corner.png') }}" alt="" width="200px">
+            <div class="left-corner">
+                <img src="{{ asset('assets/images/left-corner.png') }}" class="position-absolute top-0 end-0" alt="" width="200px">
             </div>
-            <div class="right-corner d-flex justify-content-end position-absolute bottom-0 start-0">
-                <img src="{{ asset('assets/images/right-corner.png') }}" alt="" width="235px">
+            <div class="right-corner">
+                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
@@ -520,9 +520,9 @@
                 <img src="{{ asset('assets/images/carchive-img.png') }}" alt=""
                     class="me-lg-5 carchive-img img-fluid col-lg-7 col-10">
             </div>
-        </div>
+        </div> --}}
 
-        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
+        {{-- <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
             <div class="estate-pie-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
                     <div class="esate-pie-app-logo">
@@ -542,13 +542,14 @@
                 </div>
             </div>
             <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt="" class="img-fluid col-lg-12">
+                <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt=""
+                    class="img-fluid col-lg-12">
             </div>
-        </div>
-
-        <div class="carchive-web-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
-            <div class="right-corner d-flex justify-content-end position-absolute bottom-0 start-0">
-                <img src="{{ asset('assets/images/right-corner.png') }}" alt="" width="235px">
+        </div> --}}
+{{-- 
+        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 radius-20 row align-items-center">
+            <div class="right-corner">
+                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-5">
@@ -573,9 +574,9 @@
                 <img src="{{ asset('assets/images/carchive-web-img.png') }}" alt=""
                     class="me-lg-5 carchive-web-img img-fluid" width="98%">
             </div>
-        </div>
+        </div> --}}
 
-        <div class="about-jeux-deevelopers my-4 py-5 mt-5">
+        {{-- <div class="about-jeux-deevelopers my-4 py-5 mt-5">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
@@ -621,8 +622,79 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
+        {{-- <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
+            <div class="carchive-app-left-side col-lg-7">
+                <div class="col-lg-10 ms-5">
+                    <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
+                    <p class="text fs-4 text-cadet-grey m-0">
+                        Jeux Developers Came Into Existence After Two
+                        Tech Enthusiasts From Different Backgrounds
+                        Joined Forces To Create Something Bound To
+                        Become A Difference-Maker In The Digital
+                        World.
+                        <br>
+                        The Company Started In 2018 As A Mobile App
+                        Development Company But Has Since Grown Into
+                        A Full-Stack Digital Transformation Organization
+                        Offering Enterprise Software Development And
+                        Technical Consultancy Services For Businesses
+                        Worldwide.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
+                <img src="{{ asset('assets/images/meeting.png') }}" alt=""
+                    class="me-lg-5 carchive-web-img img-fluid" width="100%">
+            </div>
+        </div> --}}
+
+        
+        {{-- <div class="pour-clients mx-lg-5">
+            <div class="jeux-developers-heading">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
+                        class="img-fluid position-absolute jeux-text">
+                    <img src="{{ asset('assets/images/about-jeux-img.png') }}" alt="" width="850px"
+                        class="img-fluid">
+                </div>
+                <p class="text-center fs-5 text-cadet-grey mt-3">
+                    We Contribute TO These Partnership Programs, Supported By Global
+                    Technology Experts. Partnering With Industry Leaders, We Offer Quality
+                    Technology Solutions That Meet Your Business Needs.
+                </p>
+            </div>
+            <div class="project-iamges row py-5">
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/trekend.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/security.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/seekooh.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/mr-fitx.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/p2p.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/divinity.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/sit-stand.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/carchive.png')}}" alt="" class="w-100">
+              </div>
+              <div class="col-xl-3 col-lg-4 p-4">
+                <img src="{{asset('assets/images/projects/yuka.png')}}" alt="" class="w-100">
+              </div>
+            </div>
+        </div> --}}
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
@@ -678,9 +750,33 @@
 
                 },
                 {
-                    breakpoint: 564,
+                    breakpoint: 670,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2.7,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 590,
+                    settings: {
+                        slidesToShow: 2.2,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 490,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 420,
+                    settings: {
+                        slidesToShow: 1.3,
                         slidesToScroll: 1,
                     }
 
@@ -717,9 +813,33 @@
 
                 },
                 {
-                    breakpoint: 564,
+                    breakpoint: 670,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2.7,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 590,
+                    settings: {
+                        slidesToShow: 2.2,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 490,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 420,
+                    settings: {
+                        slidesToShow: 1.4,
                         slidesToScroll: 1,
                     }
 
@@ -832,6 +952,7 @@
             });
         }
     </script>
+
 </body>
 
 </html>
