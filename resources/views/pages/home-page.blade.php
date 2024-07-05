@@ -16,7 +16,7 @@
                     class="img-fluid lcd-img2 d-none">
             </div>
             <div class="cofee-cup-div">
-                <img src="{{ asset('assets/images/cofee-img.png') }}" alt="" width="130" class="img-fluid">
+                <img src="{{ asset('assets/images/cofee-img.png') }}" alt="" width="150" class="img-fluid">
             </div>
             <div class="home-page-heading w-100 d-flex justify-content-center">
                 <p class="text-white fs-55 fw-bold text-center mx-lg-0 mx-md-0 mx-3 mb-0">
@@ -29,7 +29,7 @@
                 <img src="{{ asset('assets/images/mouse-img.png') }}" alt="" width="150" class="img-fluid">
             </div>
             <div class="keyboard-div w-100 text-center">
-                <img src="{{ asset('assets/images/keyboard-img.png') }}" alt="" width="460"
+                <img src="{{ asset('assets/images/keyboard-img.png') }}" alt="" width="680px"
                     class="img-fluid p-0">
             </div>
         </header>
@@ -443,7 +443,7 @@
                     </div>
                     <p class="w-100 text-center fs-4 fw-bold text-white">Customized Solutions</p>
                 </div>
-                <div class="hexagon-outer">
+                {{-- <div class="hexagon-outer">
                     <div class="hexagon">
                         <div class="hexagon-ring position-absolute">
                             <img src="{{ asset('assets/images/hexagon-ring.png') }}" alt="" class=""
@@ -458,8 +458,8 @@
                                 class="" width="165px">
                         </div>
                     </div>
-                    <p class="w-100 text-center fs-4 fw-bold text-white">Heathcare</p>
-                </div>
+                    <p class="w-100 text-center fs-4 fw-bold text-white">Healthcare</p>
+                </div> --}}
             </div>
         </div>
         <div class="">

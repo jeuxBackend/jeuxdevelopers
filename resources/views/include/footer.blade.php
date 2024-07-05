@@ -10,6 +10,9 @@
                         Pakistan
                     </button>
                     <button class="btn shadow-none bg-dark mt-1 px-4 text-light">
+                        USA
+                    </button>
+                    <button class="btn shadow-none bg-dark mt-1 px-4 text-light">
                         Dubai
                     </button>
                     <button class="btn shadow-none bg-dark mt-1 px-4 text-light">
@@ -142,7 +145,13 @@
             <h2 class="fw-bold">
                 Let’s build something great
             </h2>
-            <p class="fs-2 text-dark-orange fw-bold font-railway">let’s talk</p>
+            <p class="fs-2 text-dark-orange fw-bold font-railway d-flex align-content-center gap-3">
+               <span class="mt-3"> let’s talk</span>
+                <span class="position-relative">
+                 <img src="{{asset('assets/images/icons/talk-bg.png')}}" alt="" class="position-absolute" width="50px">
+                 <img src="{{asset('assets/images/icons/talk-arrow.png')}}" alt="" class="position-absolute talk-arrow" width="18px">
+                </span>
+            </p>
         </div>
 
     </div>

@@ -141,6 +141,11 @@
   justify-content: center;
 }
 
+.talk-arrow {
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
 body {
   margin: 0;
   padding: 0;
