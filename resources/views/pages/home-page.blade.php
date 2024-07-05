@@ -10,15 +10,19 @@
         <header class="home-banner" id="container">
             @include('include.navbar')
             <div class="lcd-div w-100 d-flex justify-content-center">
-                <img src="{{ asset('assets/images/lcd-img.png') }}" alt="" width="80%" class="img-fluid">
+                <img src="{{ asset('assets/images/lcd-img.png') }}" alt="" width="80%"
+                    class="img-fluid lcd-img1">
+                <img src="{{ asset('assets/images/lcd2.png') }}" alt="" width=""
+                    class="img-fluid lcd-img2 d-none">
             </div>
             <div class="cofee-cup-div">
                 <img src="{{ asset('assets/images/cofee-img.png') }}" alt="" width="130" class="img-fluid">
             </div>
             <div class="home-page-heading w-100 d-flex justify-content-center">
-                <p class="text-white fs-55 fw-bold text-center">
-                    Crafting Products That Bring Joy And <br>
-                    We Developer <span class="text-black">Mobile App</span>
+                <p class="text-white fs-55 fw-bold text-center mx-lg-0 mx-md-0 mx-3 mb-0">
+
+                    Transforming Ideas into Cutting-Edge <br>
+                    <span class="text-black">Mobile <span class="text-white">&</span> Web </span>Solutions
                 </p>
             </div>
             <div class="mouse-div">
@@ -34,64 +38,76 @@
             <div class="ms-lg-5 ms-md-5 mx-lg-0 mx-md-0 mx-3 multiple-items">
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/angular.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/angular.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/vue.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/vue.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/laravel.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/laravel.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/node.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/node.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/python.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/python.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn px-2 shadow-none">
-                        <img src="{{ asset('assets/images/skills/react.png') }}" alt="" width="200px">
+                        <img src="{{ asset('assets/images/skills/react.png') }}" alt="" class="skill"
+                            width="200px">
                     </a>
                 </div>
             </div>
             <div class="ms-lg-3 ms-md-3 mx-lg-0 mx-md-0 mx-2 multiple-items2" dir="rtl">
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/css.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/css.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/next.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/next.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/swift.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/swift.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/java.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/java.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/html.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/html.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
                 <div>
                     <a href="#!" class="btn shadow-none">
-                        <img src="{{ asset('assets/images/skills/flutter.png') }}" alt="" width="200">
+                        <img src="{{ asset('assets/images/skills/flutter.png') }}" alt="" class="skill"
+                            width="200">
                     </a>
                 </div>
             </div>
@@ -113,13 +129,11 @@
             <div class="row mx-lg-5 mx-md-3 mx-2 my-lg-5 my-md-5 my-2">
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Custom Software Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Our expert developers create tailored software solutions that meet your unique business
+                            needs, ensuring seamless functionality and high performance.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -134,35 +148,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Mobile App Development Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
-                        </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
-                            <a href="#!"
-                                class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
-                                <span class="">Read More</span>
-                            </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                <i class="fa fa-arrow-right"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
-                        </h4>
-                        <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            “From concept to launch, we build robust and user-friendly mobile apps for both Android and
+                            iOS platforms, designed to engage and delight your users.”
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -178,13 +168,11 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Web Development Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Enhance your online presence with our comprehensive web development services. We build
+                            responsive, fast, and secure websites that drive results.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -200,13 +188,11 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Hybrid App Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Leverage the power of cross-platform development with our hybrid app solutions. We deliver
+                            high-quality apps that perform seamlessly on multiple devices.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -222,13 +208,11 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">UI/UX Design Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Our design team creates intuitive and visually stunning interfaces, ensuring a great user
+                            experience that keeps your customers coming back.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -244,13 +228,11 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">E-commerce Solutions Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Boost your online sales with our custom e-commerce solutions. We develop scalable and
+                            secure platforms that provide a smooth shopping experience.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -266,13 +248,11 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Cloud Integration Services Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            Seamlessly integrate cloud solutions into your business infrastructure for increased
+                            flexibility, scalability, and efficiency.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -288,13 +268,31 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2">
-                            <span class="d-xl-inline d-block">Custom Software</span>
-                            Development
+                        <h4 class="mb-0 fw-bold fs-4">Maintenance & Support Development
                         </h4>
                         <p class="fw-bold my-2">
-                            Jeux Developers has a team of experienced Android App Developers
-                            that are ready to help you with your app idea.
+                            “Ensure the longevity and performance of your applications with our comprehensive
+                            maintenance and support services.”
+                        </p>
+                        <div class="w-100 d-flex justify-content-end position-relative">
+                            <a href="#!"
+                                class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
+                                <span class="">Read More</span>
+                            </a>
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                                <i class="fa fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                        <h4 class="mb-0 fw-bold fs-4">Consulting & Strategy Development
+                        </h4>
+                        <p class="fw-bold my-2">
+                            Our expert consultants provide strategic guidance to help you navigate the digital
+                            landscape and achieve your business goals.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
@@ -312,20 +310,20 @@
 
         <div class="portfolio-banner my-4 py-5" id="container2">
             <div class="portfolio-heading">
-                <div class="d-flex flex-column align-items-center position-relative">
+                <div class="d-flex flex-column align-items-center mt-4 position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
                         class="img-fluid position-absolute portfolio-text">
                     <img src="{{ asset('assets/images/portfolio-img.png') }}" alt="" width="300px"
                         class="img-fluid">
                 </div>
-                <p class="text-center fs-5 text-cadet-grey mt-3">
+                <p class="text-center fs-5 text-cadet-grey mt-4">
                     Jeux Developers Is Not Just A Service Provider: We Are An Invaluable<br>
                     Extension Of Your Marketing Team, Bringing A Powerful Combination Of<br>
                     Strategic Thinking, Expertise, And Flawless Execution To The Areas Where<br>
                     You Need It The Most.
                 </p>
             </div>
-            <div class="py-5 px-5 portfolio-slider multiple-items3">
+            <div class="py-5 px-5 mt-5 portfolio-slider multiple-items3">
                 <div class="hexagon-outer">
                     <div class="hexagon">
                         <div class="hexagon-ring position-absolute">
@@ -650,8 +648,34 @@
                 </div>
             </div>
             <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/meeting.png') }}" alt=""
+                <img src="{{ asset('assets/images/team1.png') }}" alt=""
                     class="me-lg-5 carchive-web-img img-fluid" width="100%">
+            </div>
+        </div>
+
+        <div class="impact-box py-3 my-5 shadow-lg bg-light-orange">
+            <div class="mx-lg-5 mx-md-5 mx-1 d-lg-flex align-items-center">
+                <div class="carchive-app-left-side col-lg-7">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <p class="heading fs-45 fw-bold text-white mb-0"> Our Impact</p>
+                        <p class="fs-4 text-white">Impact 2023 & Beyond!</p>
+                        <p class="text fs-4 text-white m-0">
+                            Jeux Developers Vows To Continue Serving
+                            The Community With Social Welfare And
+                            CSR Efforts For Communal Betterment And
+                            Well-Being. Our Vision To Impact 20
+                            Million Lives Through Better Employment
+                            And Education Opportunities And
+                            Empowerment Marches Toward 2023, And
+                            We Will Aggressively Pursue The Future
+                            Beyond.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
+                    <img src="{{ asset('assets/images/team2.png') }}" alt=""
+                        class="me-lg-5 carchive-web-img img-fluid" width="100%">
+                </div>
             </div>
         </div>
 
@@ -694,9 +718,9 @@
                 <div class="col-xl-3 col-lg-4 p-2">
                     <img src="{{ asset('assets/images/projects/carchive.png') }}" alt="" class="w-100">
                 </div>
-                <div class="col-xl-3 col-lg-4 p-2">
+                {{-- <div class="col-xl-3 col-lg-4 p-2">
                     <img src="{{ asset('assets/images/projects/yuka.png') }}" alt="" class="w-100">
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -749,7 +773,7 @@
                 {
                     breakpoint: 670,
                     settings: {
-                        slidesToShow: 2.7,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                     }
 
@@ -757,7 +781,7 @@
                 {
                     breakpoint: 590,
                     settings: {
-                        slidesToShow: 2.2,
+                        slidesToShow: 2.8,
                         slidesToScroll: 1,
                     }
 
@@ -765,7 +789,7 @@
                 {
                     breakpoint: 490,
                     settings: {
-                        slidesToShow: 1.8,
+                        slidesToShow: 2.3,
                         slidesToScroll: 1,
                     }
 
@@ -773,7 +797,7 @@
                 {
                     breakpoint: 420,
                     settings: {
-                        slidesToShow: 1.3,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     }
 
@@ -812,7 +836,7 @@
                 {
                     breakpoint: 670,
                     settings: {
-                        slidesToShow: 2.7,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                     }
 
@@ -820,7 +844,7 @@
                 {
                     breakpoint: 590,
                     settings: {
-                        slidesToShow: 2.2,
+                        slidesToShow: 2.3,
                         slidesToScroll: 1,
                     }
 
@@ -828,7 +852,7 @@
                 {
                     breakpoint: 490,
                     settings: {
-                        slidesToShow: 1.8,
+                        slidesToShow: 2.8,
                         slidesToScroll: 1,
                     }
 
@@ -836,7 +860,7 @@
                 {
                     breakpoint: 420,
                     settings: {
-                        slidesToShow: 1.4,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     }
 
@@ -918,7 +942,7 @@
             });
 
             box.addEventListener("mouseenter", () => {
-                box.style.transform = "scale(1.5)";
+                box.style.transform = "scale(2.5)";
             });
 
             box.addEventListener("mouseleave", () => {

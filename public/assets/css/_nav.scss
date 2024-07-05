@@ -1,12 +1,12 @@
-.navbar-expand-lg{
-    top:43px;
+.navbar-expand-lg {
+    top: 43px;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 5px;
     z-index: 1000;
 }
-.call-btn{
+.call-btn {
     background-color: black;
     color: white;
     font-weight: 600;
@@ -15,20 +15,22 @@
     border-bottom-left-radius: 7px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
-    &:hover{
+    &:hover {
         color: white;
+        scale: 1.02 !important;
     }
 }
-.whatsapp-btn{
+.whatsapp-btn {
     background-color: #ffffff;
     color: black;
     font-weight: 600;
     font-size: 18px;
-    &:hover{
+    &:hover {
         color: black;
+        scale: 1.02 !important;
     }
 }
-.contact-btn{
+.contact-btn {
     background-color: black;
     color: white;
     font-weight: 600;
@@ -37,18 +39,66 @@
     border-bottom-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 7px;
-    &:hover{
+    &:hover {
         color: white;
+        scale: 1.02 !important;
     }
 }
+// .contact-btn-2 {
+//     background-color: black;
+//     color: white;
+//     font-weight: 600;
+//     font-size: 14px;
+//     border-top-left-radius: 35px;
+//     border-bottom-left-radius: 35px;
+//     border-top-right-radius: 35px;
+//     border-bottom-right-radius: 3px;
+//     padding-top: 8px;
+//     padding-bottom: 7px;
+//     display: none;
+//     margin-right: -15px !important;
+//     &:hover {
+//         color: white;
+//     }
+// }
+.navbar-toggler {
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 7px;
+}
 
-@media only screen and ((max-width:1080px) and (min-width:992px)){
-    .call-btn, .whatsapp-btn, .contact-btn, .nav-link{
+@media only screen and (max-width: 992px) {
+   .whatsapp-btn, .call-btn{
+    display: none !important;
+   }
+}
+@media only screen and ((max-width: 1080px) and (min-width:992px)) {
+    .call-btn,
+    .whatsapp-btn,
+    .contact-btn,
+    .nav-link {
         font-size: 14px;
     }
 }
-@media only screen and (max-width:600px){
-    .navbar-expand-lg{
+@media only screen and (max-width: 600px) {
+    .navbar-expand-lg {
         border-radius: 35px;
+        top: 30px !important;
+        padding-top: 5px !important;
+        padding-bottom: 10px !important;
+    }
+    .logo {
+        width: 80px;
+    }
+    .position-fix{
+        position: fixed;
+        margin: 0px !important;
+        width: 100%;
+        margin-top: -20px !important;
     }
 }
