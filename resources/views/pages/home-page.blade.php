@@ -128,10 +128,10 @@
             </div>
             <div class="row mx-lg-5 mx-md-3 mx-2 my-lg-5 my-md-5 my-2">
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Custom Software Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Our expert developers create tailored software solutions that meet your unique business
                             needs, ensuring seamless functionality and high performance.
                         </p>
@@ -140,26 +140,26 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Mobile App Development Development
                         </h4>
-                        <p class="fw-bold my-2">
-                            “From concept to launch, we build robust and user-friendly mobile apps for both Android and
-                            iOS platforms, designed to engage and delight your users.”
+                        <p class="fw-400 my-2">
+                            From concept to launch, we build robust and user-friendly mobile apps for both Android and
+                            iOS platforms, designed to engage and delight your users.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -167,10 +167,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Web Development Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Enhance your online presence with our comprehensive web development services. We build
                             responsive, fast, and secure websites that drive results.
                         </p>
@@ -179,7 +179,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -187,10 +187,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Hybrid App Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Leverage the power of cross-platform development with our hybrid app solutions. We deliver
                             high-quality apps that perform seamlessly on multiple devices.
                         </p>
@@ -199,7 +199,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -207,10 +207,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">UI/UX Design Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Our design team creates intuitive and visually stunning interfaces, ensuring a great user
                             experience that keeps your customers coming back.
                         </p>
@@ -219,7 +219,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -227,10 +227,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">E-commerce Solutions Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Boost your online sales with our custom e-commerce solutions. We develop scalable and
                             secure platforms that provide a smooth shopping experience.
                         </p>
@@ -239,7 +239,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -247,10 +247,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Cloud Integration Services Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Seamlessly integrate cloud solutions into your business infrastructure for increased
                             flexibility, scalability, and efficiency.
                         </p>
@@ -259,7 +259,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -267,19 +267,19 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Maintenance & Support Development
                         </h4>
-                        <p class="fw-bold my-2">
-                            “Ensure the longevity and performance of your applications with our comprehensive
-                            maintenance and support services.”
+                        <p class="fw-400 my-2">
+                            Ensure the longevity and performance of your applications with our comprehensive
+                            maintenance and support services.
                         </p>
                         <div class="w-100 d-flex justify-content-end position-relative">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -287,10 +287,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20">
+                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Consulting & Strategy Development
                         </h4>
-                        <p class="fw-bold my-2">
+                        <p class="fw-400 my-2">
                             Our expert consultants provide strategic guidance to help you navigate the digital
                             landscape and achieve your business goals.
                         </p>
@@ -299,7 +299,7 @@
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
-                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
+                            <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute">
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -323,7 +323,7 @@
                     You Need It The Most.
                 </p>
             </div>
-            <div class="py-5 px-5 mt-5 portfolio-slider multiple-items3">
+            <div class="py-5 px-0 mt-5 portfolio-slider multiple-items3">
                 <div class="hexagon-outer">
                     <div class="hexagon">
                         <div class="hexagon-ring position-absolute">
@@ -339,7 +339,7 @@
                                 class="" width="165px">
                         </div>
                     </div>
-                    <p class="w-100 text-center fs-4 fw-bold text-white">Heathcare</p>
+                    <p class="w-100 text-center fs-4 fw-bold text-white">Healthcare</p>
                 </div>
                 <div class="hexagon-outer">
                     <div class="hexagon">
