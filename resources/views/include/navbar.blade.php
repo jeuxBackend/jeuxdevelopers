@@ -4,7 +4,7 @@
             <img src="{{ asset('assets/images/logo/logo.png') }}" alt="" width="100px" class="ms-3 logo">
         </a>
         {{-- <a href="#!" class="btn contact-btn-2 px-4 border-0 shadow-none mt-lg-0 mt-2">CONTACTUS</a> --}}
-        <div class="text-end w-50">
+        <div class="text-end contact-icons w-50 d-none">
             <a href="#!" class="text-decoration-none">
                 <img src="{{ asset('assets/images/icons/call-icon.png') }}" width="25px" class="me-3 mt-1"
                     alt="">

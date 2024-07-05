@@ -308,7 +308,7 @@
             </div>
         </div>
 
-        <div class="portfolio-banner my-4 py-5" id="container2">
+        <div class="portfolio-banner my-lg-4 my-md-4 my-2 py-5" id="container2">
             <div class="portfolio-heading">
                 <div class="d-flex flex-column align-items-center mt-4 position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
@@ -659,7 +659,8 @@
                 </div>
             </div>
         </div>
-        <div class="impact-box py-3 my-5 shadow-lg bg-light-orange">
+
+        <div class="impact-box py-3 my-lg-5 my-md-5 my-2 shadow-lg bg-light-orange">
             <div class="mx-lg-5 mx-md-5 mx-1 d-lg-flex align-items-center">
                 <div class="carchive-app-left-side col-lg-7">
                     <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
@@ -685,7 +686,7 @@
             </div>
         </div>
 
-        <div class="our-clients mx-lg-5 mt-5">
+        <div class="our-clients mx-lg-5 mt-lg-5 mt-md-5 mt-2">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/client-text.png') }}" alt="" width="270px"
