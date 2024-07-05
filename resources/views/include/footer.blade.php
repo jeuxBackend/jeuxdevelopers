@@ -31,26 +31,26 @@
                 <p class="fs-45 fw-bold">Let's get in touch!</p>
                 <p class="fs-4">Let's discuss your project and find out what we can do to provide value.</p>
             </div>
-            <div class="col-lg-7 text-light py-3">
+            <div class="col-lg-6 text-light py-3">
                 <p class="fs-4">I am interested in discussing my ideas with you for</p>
-                <form class="row mx-0 text-light">
+                <form class="row text-light">
                     <div class="col-md-6 mt-3">
                         <select name="" id=""
-                            class="form-control border-0 bg-transparent shadow-none wide fs-4 p-2 radius-0">
-                            <option class="text-dark">Select Project Type</option>
+                            class="form-select border-0 bg-transparent shadow-none text-light wide fs-5 p-2 radius-0">
+                            <option>Select Project Type</option>
                         </select>
                     </div>
                     <div class="col-md-6 text-light mt-3">
                         <input name="" id="" placeholder="Your Full Name"
-                            class="form-control border-0 wide p-2 fs-4 shadow-none radius-0" />
+                            class="form-control border-0 wide p-2 fs-5 shadow-none radius-0" />
                     </div>
                     <div class="col-md-6 text-light mt-3">
                         <input name="" id="" placeholder="Your Email Address"
-                            class="form-control border-0 wide p-2 fs-4 shadow-none radius-0" />
+                            class="form-control border-0 wide p-2 fs-5 shadow-none radius-0" />
                     </div>
                     <div class="col-md-6 text-light mt-3">
                         <input name="" id="" placeholder="Your Phone Number"
-                            class="form-control border-0 wide p-2 fs-4 shadow-none radius-0" />
+                            class="form-control border-0 wide p-2 fs-5 shadow-none radius-0" />
                     </div>
                     <div class="col-md-6 mt-3">
                         <button type="submit"
@@ -68,15 +68,15 @@
             <a href="#!" class="w-100">
                 <img src="{{ asset('assets/images/logo/logo-white.png') }}" alt="" width="140px">
             </a>
-            <p class="my-2 mt-4 fs-5">Phone:
+            <p class="my-2 mt-4 fs-5 font-railway">Phone:
                 <a href="tel:+13153550065" class="text-white text-decoration-none">+1 (315) 355-0065</a>
             </p>
-            <p class="my-2 fs-5">Email:
+            <p class="my-2 fs-5 font-railway">Email:
                 <a href="mailto:contact@jeuxdevelopers.com" class="text-white text-decoration-none">
                     contact@jeuxdevelopers.com
                 </a>
             </p>
-            <p class="my-4 fs-5">
+            <p class="my-4 fs-5 font-railway">
                 Building # 58, Kalma Gardens, Sahiwal
                 District, Punjab 57000
             </p>

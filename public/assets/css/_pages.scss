@@ -175,13 +175,17 @@ a {
 
 .about-jeux-deevelopers {
     min-height: auto;
-    position: relative;
-    background-color: #fff;
-    .project-detail {
-        background-image: url("../images/about-jeux-bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    // position: relative;
+    .project-detail .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 140px;
+        border-radius: 20px;
+        span {
+            font-size: 85px;
+        }
     }
 }
 
@@ -202,8 +206,8 @@ a {
         0deg,
         #fa6b12 0%,
         #fa6b12 56%,
-        rgba(255, 255, 255, 1) 56%,
-        rgba(255, 255, 255, 1) 100%
+        rgba(255, 255, 255, 0) 56%,
+        rgba(255, 255, 255, 0) 100%
     );
 }
 
@@ -223,6 +227,12 @@ a {
     border-radius: 0px !important;
     background: transparent !important;
     border-bottom: 2px solid #fff !important;
+}
+.idea-box .form-select {
+    border-radius: 0px !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+    border-bottom: 2px solid #fff !important;
+    background-repeat: no-repeat;
 }
 
 .idea-box .nice-select .option {

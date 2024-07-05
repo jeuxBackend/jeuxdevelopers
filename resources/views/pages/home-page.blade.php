@@ -113,8 +113,8 @@
             </div>
         </div>
 
-        <div class="primary-service bg-white">
-            <div class="service-heading  bg-white">
+        <div class="primary-service py-4 pb-2">
+            <div class="service-heading">
                 <div class="d-flex flex-column align-items-center mx-lg-0 mx-md-0 mx-3 position-relative">
                     <img src="{{ asset('assets/images/primary-text.png') }}" alt="" width="550px"
                         class="img-fluid position-absolute primary-text">
@@ -462,7 +462,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white">
+        <div class="">
             <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
                 <div class="estate-pie-left-side col-lg-5">
                     <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
@@ -599,93 +599,96 @@
                         Demand And Needs.
                     </p>
                 </div>
-                <div class="project-detail py-5">
-                    <p class="text fs-45 text-center text-white fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
+                <div class="project-detail p-4 container">
+                    <p class="text fs-1 text-center text-dark fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
                         In Pursuit Of Scaling The Digital Ecosystem<br>
                         Through Top-Tier Product Teams
                     </p>
-                    <div class="d-flex flex-wrap">
-                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                            <span>
-                                <img src="{{ asset('assets/images/hundred.png') }}" alt="" width="150px">
+                    <div class="mx-0 row gap-3">
+                        <div class="col mt-3 card">
+                            <span class="font-railway text-dark-orange">
+                                100+
                             </span>
-                            <p class="text-white fs-6 text-center mt-lg-3">Successfully Completed <br> Projects</p>
+                            <p class="text-cadet-grey fs-3 text-center">Successfully Completed Projects</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                            <span>
-                                <img src="{{ asset('assets/images/3hundred.png') }}" alt="" width="150px">
+                        <div class="col mt-3 card">
+                            <span class="font-railway text-dark-orange">
+                                300+
                             </span>
-                            <p class="text-white fs-6 text-center mt-lg-2">In-House Engineers</p>
+                            <p class="text-cadet-grey fs-3 text-center mt-lg-2">In-House Engineers</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                            <span>
-                                <img src="{{ asset('assets/images/twenty.png') }}" alt="" width="150px">
+                        <div class="col mt-3 card">
+                            <span class="font-railway text-dark-orange">
+                                20+
                             </span>
-                            <p class="text-white fs-6 text-center">Industries Served</p>
+                            <p class="text-cadet-grey fs-3 text-center">Industries Served</p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-3 d-flex align-items-center flex-column">
-                            <span>
-                                <img src="{{ asset('assets/images/sixty5.png') }}" alt="" width="150px">
+                        <div class="col mt-3 card">
+                            <span class="font-railway text-dark-orange">
+                                65+
                             </span>
-                            <p class="text-white fs-6 text-center mb-0">Clutch Reviews</p>
+                            <p class="text-cadet-grey fs-3 text-center mb-0">Clutch Reviews</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
-                <div class="carchive-app-left-side col-lg-7">
-                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                        <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
-                        <p class="text fs-4 text-cadet-grey m-0">
-                            Jeux Developers Came Into Existence After Two
-                            Tech Enthusiasts From Different Backgrounds
-                            Joined Forces To Create Something Bound To
-                            Become A Difference-Maker In The Digital
-                            World.
-                            <br>
-                            The Company Started In 2018 As A Mobile App
-                            Development Company But Has Since Grown Into
-                            A Full-Stack Digital Transformation Organization
-                            Offering Enterprise Software Development And
-                            Technical Consultancy Services For Businesses
-                            Worldwide.
-                        </p>
+            <div class="row mx-0 px-4">
+                <div class="story-box bg-white py-3 my-lg-5 my-2 mb-2 radius-20 d-lg-flex align-items-center">
+                    <div class="carchive-app-left-side col-lg-7">
+                        <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                            <p class="heading fs-45 fw-bold text-dark-orange mb-0">Our Story</p>
+                            <p class="text fs-4 text-cadet-grey m-0">
+                                Jeux Developers Came Into Existence After Two
+                                Tech Enthusiasts From Different Backgrounds
+                                Joined Forces To Create Something Bound To
+                                Become A Difference-Maker In The Digital
+                                World.
+                                <br>
+                                The Company Started In 2018 As A Mobile App
+                                Development Company But Has Since Grown Into
+                                A Full-Stack Digital Transformation Organization
+                                Offering Enterprise Software Development And
+                                Technical Consultancy Services For Businesses
+                                Worldwide.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
-                    <img src="{{ asset('assets/images/team1.png') }}" alt=""
-                        class="me-lg-5 carchive-web-img img-fluid" width="100%">
+                    <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2 p-lg-5 p-2">
+                        <img src="{{ asset('assets/images/team1.png') }}" alt=""
+                            class="carchive-web-img img-fluid" width="100%">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="impact-box py-3 my-lg-5 my-md-5 my-2 shadow-lg bg-light-orange">
-            <div class="mx-lg-5 mx-md-5 mx-1 d-lg-flex align-items-center">
-                <div class="carchive-app-left-side col-lg-7">
-                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                        <p class="heading fs-45 fw-bold text-white mb-0"> Our Impact</p>
-                        <p class="fs-4 text-white">Impact 2023 & Beyond!</p>
-                        <p class="text fs-4 text-white m-0">
-                            Jeux Developers Vows To Continue Serving
-                            The Community With Social Welfare And
-                            CSR Efforts For Communal Betterment And
-                            Well-Being. Our Vision To Impact 20
-                            Million Lives Through Better Employment
-                            And Education Opportunities And
-                            Empowerment Marches Toward 2023, And
-                            We Will Aggressively Pursue The Future
-                            Beyond.
-                        </p>
+        <div class="row mx-0 px-4">
+            <div class="impact-box py-3 my-lg-5 my-2 shadow-lg radius-20 bg-light-orange">
+                <div class="px-1 d-lg-flex align-items-center">
+                    <div class="carchive-app-left-side col-lg-7">
+                        <div class="col-lg-10 ps-lg-5 ms-2">
+                            <p class="heading fs-45 fw-bold text-white mb-0"> Our Impact</p>
+                            <p class="fs-4 text-white">Impact 2023 & Beyond!</p>
+                            <p class="text fs-4 text-white m-0">
+                                Jeux Developers Vows To Continue Serving
+                                The Community With Social Welfare And
+                                CSR Efforts For Communal Betterment And
+                                Well-Being. Our Vision To Impact 20
+                                Million Lives Through Better Employment
+                                And Education Opportunities And
+                                Empowerment Marches Toward 2023, And
+                                We Will Aggressively Pursue The Future
+                                Beyond.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
-                    <img src="{{ asset('assets/images/team2.png') }}" alt=""
-                        class="me-lg-5 carchive-web-img img-fluid" width="100%">
+                    <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2 p-lg-5 p-2">
+                        <img src="{{ asset('assets/images/team2.png') }}" alt=""
+                            class="carchive-web-img img-fluid" width="100%">
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class="our-clients mx-lg-5 mt-lg-5 mt-md-5 mt-2">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">

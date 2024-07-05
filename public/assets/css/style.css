@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 .text-black {
   color: black;
 }
@@ -28,6 +29,13 @@
 
 .text-blue {
   color: #00274d;
+}
+
+.font-railway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
 }
 
 .fs-75 {
@@ -318,14 +326,17 @@ a {
 
 .about-jeux-deevelopers {
   min-height: auto;
-  position: relative;
-  background-color: #fff;
 }
-.about-jeux-deevelopers .project-detail {
-  background-image: url("../images/about-jeux-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.about-jeux-deevelopers .project-detail .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  border-radius: 20px;
+}
+.about-jeux-deevelopers .project-detail .card span {
+  font-size: 85px;
 }
 
 .jeux-developers-heading .jeux-text {
@@ -339,7 +350,7 @@ a {
   padding: 10px;
   padding-top: 20px;
   background: rgb(0, 212, 255);
-  background: linear-gradient(0deg, #fa6b12 0%, #fa6b12 56%, rgb(255, 255, 255) 56%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(0deg, #fa6b12 0%, #fa6b12 56%, rgba(255, 255, 255, 0) 56%, rgba(255, 255, 255, 0) 100%);
 }
 
 .location-box div {
@@ -358,6 +369,13 @@ a {
   border-radius: 0px !important;
   background: transparent !important;
   border-bottom: 2px solid #fff !important;
+}
+
+.idea-box .form-select {
+  border-radius: 0px !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+  border-bottom: 2px solid #fff !important;
+  background-repeat: no-repeat;
 }
 
 .idea-box .nice-select .option {
