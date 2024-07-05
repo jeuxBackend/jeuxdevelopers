@@ -489,7 +489,7 @@
                     width="100%">
             </div>
         </div> --}}
-{{-- 
+        {{--
         <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
             <div class="left-corner">
                 <img src="{{ asset('assets/images/left-corner.png') }}" class="position-absolute top-0 end-0" alt="" width="200px">
@@ -546,7 +546,7 @@
                     class="img-fluid col-lg-12">
             </div>
         </div> --}}
-{{-- 
+        {{--
         <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 radius-20 row align-items-center">
             <div class="right-corner">
                 <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
@@ -650,7 +650,7 @@
             </div>
         </div> --}}
 
-        
+
         {{-- <div class="pour-clients mx-lg-5">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
@@ -695,6 +695,7 @@
               </div>
             </div>
         </div> --}}
+        @include('include.footer')
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
