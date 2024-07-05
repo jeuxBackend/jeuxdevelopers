@@ -113,8 +113,8 @@
             </div>
         </div>
 
-        <div class="primary-service">
-            <div class="service-heading">
+        <div class="primary-service bg-white">
+            <div class="service-heading  bg-white">
                 <div class="d-flex flex-column align-items-center mx-lg-0 mx-md-0 mx-3 position-relative">
                     <img src="{{ asset('assets/images/primary-text.png') }}" alt="" width="550px"
                         class="img-fluid position-absolute primary-text">
@@ -462,197 +462,203 @@
                 </div>
             </div>
         </div>
-
-        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
-            <div class="estate-pie-left-side col-lg-5">
-                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                    <div class="esate-pie-logo">
-                        <img src="{{ asset('assets/images/logo/estate-pie-logo.png') }}" alt=""
-                            width="160px">
-                    </div>
-                    <p class="heading fs-45 fw-bold text-blue"> Your Management And Listing Platform.</p>
-                    <p class="text fs-4 text-blue">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem culpa
-                        officiis delectus minus iure eum velit.
-                        totam?
-                    </p>
-                    <div class="button">
-                        <a href="#!"
-                            class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 px-0 text-end mt-lg-0 mt-lg-2 mt-3">
-                <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class=""
-                    width="100%">
-            </div>
-        </div>
-
-        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
-            <div class="left-corner">
-                <img src="{{ asset('assets/images/left-corner.png') }}"
-                    class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt="" width="200px">
-            </div>
-            <div class="right-corner">
-                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0"
-                    alt="" width="235px">
-            </div>
-            <div class="carchive-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                    <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
-                        <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
-                            width="70px">
-                        <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
-                    </div>
-                    <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
-                    <p class="text fs-4 text-white m-0">
-                        Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By Adding
-                        Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
-                    </p>
-                    <div class="button">
-                        <a href="#!"
-                            class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
-                            More</a>
+        <div class="bg-white">
+            <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
+                <div class="estate-pie-left-side col-lg-5">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <div class="esate-pie-logo">
+                            <img src="{{ asset('assets/images/logo/estate-pie-logo.png') }}" alt=""
+                                width="160px">
+                        </div>
+                        <p class="heading fs-45 fw-bold text-blue"> Your Management And Listing Platform.</p>
+                        <p class="text fs-4 text-blue">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem
+                            culpa
+                            officiis delectus minus iure eum velit.
+                            totam?
+                        </p>
+                        <div class="button">
+                            <a href="#!"
+                                class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">
+                                Learn More
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/carchive-img.png') }}" alt=""
-                    class="me-lg-5 carchive-img img-fluid col-lg-7 col-10">
-            </div>
-        </div>
-
-        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
-            <div class="estate-pie-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                    <div class="esate-pie-app-logo">
-                        <img src="{{ asset('assets/images/logo/estate-pie-app-logo.png') }}" alt=""
-                            width="180px">
-                    </div>
-                    <p class="heading fs-45 fw-bold text-white"> Your Management And Listing Platform.</p>
-                    <p class="text fs-4 text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem culpa
-                        officiis delectus minus iure eum velit.
-                        totam?
-                    </p>
-                    <div class="button">
-                        <a href="#!"
-                            class="btn fs-4 px-5 py-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn More</a>
-                    </div>
+                <div class="col-lg-7 px-0 text-end mt-lg-0 mt-lg-2 mt-3">
+                    <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class=""
+                        width="100%">
                 </div>
             </div>
-            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt=""
-                    class="img-fluid col-lg-12">
-            </div>
-        </div>
 
-        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
-            <div class="right-corner">
-                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0"
-                    alt="" width="235px">
-            </div>
-            <div class="carchive-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                    <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
-                        <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
-                            width="70px">
-                        <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
-                    </div>
-                    <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
-                    <p class="text fs-4 text-white m-0">
-                        Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By Adding
-                        Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
-                    </p>
-                    <div class="button">
-                        <a href="#!"
-                            class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
-                            More</a>
+            <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+                <div class="left-corner">
+                    <img src="{{ asset('assets/images/left-corner.png') }}"
+                        class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt=""
+                        width="200px">
+                </div>
+                <div class="right-corner">
+                    <img src="{{ asset('assets/images/right-corner.png') }}"
+                        class="position-absolute bottom-0 start-0" alt="" width="235px">
+                </div>
+                <div class="carchive-app-left-side col-lg-5">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
+                            <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
+                                width="70px">
+                            <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
+                        </div>
+                        <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
+                        <p class="text fs-4 text-white m-0">
+                            Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By
+                            Adding
+                            Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
+                        </p>
+                        <div class="button">
+                            <a href="#!"
+                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
+                                More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/carchive-web-img.png') }}" alt=""
-                    class="me-lg-5 carchive-web-img img-fluid" width="98%">
-            </div>
-        </div>
-
-        <div class="about-jeux-deevelopers my-5 py-5 mt-5">
-            <div class="jeux-developers-heading">
-                <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
-                    <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
-                        class="img-fluid position-absolute jeux-text">
-                    <img src="{{ asset('assets/images/about-jeux-img.png') }}" alt="" width="850px"
-                        class="img-fluid">
-                </div>
-                <p class="text-center fs-5 text-cadet-grey mt-3">
-                    Jeux Developers Is An Enterprise Software Development Company Helping Startups And<br>
-                    Organizations Build And Implement Digital Transformation Solutions Tailored To Their<br>
-                    Demand And Needs.
-                </p>
-            </div>
-            <div class="project-detail py-5">
-                <p class="text fs-45 text-center text-white fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
-                    In Pursuit Of Scaling The Digital Ecosystem<br>
-                    Through Top-Tier Product Teams
-                </p>
-                <div class="d-flex flex-wrap">
-                    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                        <span>
-                            <img src="{{ asset('assets/images/hundred.png') }}" alt="" width="150px">
-                        </span>
-                        <p class="text-white fs-6 text-center mt-lg-3">Successfully Completed <br> Projects</p>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                        <span>
-                            <img src="{{ asset('assets/images/3hundred.png') }}" alt="" width="150px">
-                        </span>
-                        <p class="text-white fs-6 text-center mt-lg-2">In-House Engineers</p>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
-                        <span>
-                            <img src="{{ asset('assets/images/twenty.png') }}" alt="" width="150px">
-                        </span>
-                        <p class="text-white fs-6 text-center">Industries Served</p>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-3 d-flex align-items-center flex-column">
-                        <span>
-                            <img src="{{ asset('assets/images/sixty5.png') }}" alt="" width="150px">
-                        </span>
-                        <p class="text-white fs-6 text-center mb-0">Clutch Reviews</p>
-                    </div>
+                <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
+                    <img src="{{ asset('assets/images/carchive-img.png') }}" alt=""
+                        class="me-lg-5 carchive-img img-fluid col-lg-7 col-10">
                 </div>
             </div>
-        </div>
 
-        <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
-            <div class="carchive-app-left-side col-lg-7">
-                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                    <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
-                    <p class="text fs-4 text-cadet-grey m-0">
-                        Jeux Developers Came Into Existence After Two
-                        Tech Enthusiasts From Different Backgrounds
-                        Joined Forces To Create Something Bound To
-                        Become A Difference-Maker In The Digital
-                        World.
-                        <br>
-                        The Company Started In 2018 As A Mobile App
-                        Development Company But Has Since Grown Into
-                        A Full-Stack Digital Transformation Organization
-                        Offering Enterprise Software Development And
-                        Technical Consultancy Services For Businesses
-                        Worldwide.
+            <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+                <div class="estate-pie-app-left-side col-lg-5">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <div class="esate-pie-app-logo">
+                            <img src="{{ asset('assets/images/logo/estate-pie-app-logo.png') }}" alt=""
+                                width="180px">
+                        </div>
+                        <p class="heading fs-45 fw-bold text-white"> Your Management And Listing Platform.</p>
+                        <p class="text fs-4 text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem
+                            culpa
+                            officiis delectus minus iure eum velit.
+                            totam?
+                        </p>
+                        <div class="button">
+                            <a href="#!"
+                                class="btn fs-4 px-5 py-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
+                    <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt=""
+                        class="img-fluid col-lg-12">
+                </div>
+            </div>
+
+            <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+                <div class="right-corner">
+                    <img src="{{ asset('assets/images/right-corner.png') }}"
+                        class="position-absolute bottom-0 start-0" alt="" width="235px">
+                </div>
+                <div class="carchive-app-left-side col-lg-5">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
+                            <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
+                                width="70px">
+                            <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
+                        </div>
+                        <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
+                        <p class="text fs-4 text-white m-0">
+                            Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By
+                            Adding
+                            Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
+                        </p>
+                        <div class="button">
+                            <a href="#!"
+                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
+                    <img src="{{ asset('assets/images/carchive-web-img.png') }}" alt=""
+                        class="me-lg-5 carchive-web-img img-fluid" width="98%">
+                </div>
+            </div>
+
+            <div class="about-jeux-deevelopers my-5 py-5 mt-5">
+                <div class="jeux-developers-heading">
+                    <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
+                        <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
+                            class="img-fluid position-absolute jeux-text">
+                        <img src="{{ asset('assets/images/about-jeux-img.png') }}" alt="" width="850px"
+                            class="img-fluid">
+                    </div>
+                    <p class="text-center fs-5 text-cadet-grey mt-3">
+                        Jeux Developers Is An Enterprise Software Development Company Helping Startups And<br>
+                        Organizations Build And Implement Digital Transformation Solutions Tailored To Their<br>
+                        Demand And Needs.
                     </p>
                 </div>
+                <div class="project-detail py-5">
+                    <p class="text fs-45 text-center text-white fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
+                        In Pursuit Of Scaling The Digital Ecosystem<br>
+                        Through Top-Tier Product Teams
+                    </p>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
+                            <span>
+                                <img src="{{ asset('assets/images/hundred.png') }}" alt="" width="150px">
+                            </span>
+                            <p class="text-white fs-6 text-center mt-lg-3">Successfully Completed <br> Projects</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
+                            <span>
+                                <img src="{{ asset('assets/images/3hundred.png') }}" alt="" width="150px">
+                            </span>
+                            <p class="text-white fs-6 text-center mt-lg-2">In-House Engineers</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mt-3 mt-lg-4 d-flex align-items-center flex-column">
+                            <span>
+                                <img src="{{ asset('assets/images/twenty.png') }}" alt="" width="150px">
+                            </span>
+                            <p class="text-white fs-6 text-center">Industries Served</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-3 d-flex align-items-center flex-column">
+                            <span>
+                                <img src="{{ asset('assets/images/sixty5.png') }}" alt="" width="150px">
+                            </span>
+                            <p class="text-white fs-6 text-center mb-0">Clutch Reviews</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/team1.png') }}" alt=""
-                    class="me-lg-5 carchive-web-img img-fluid" width="100%">
+
+            <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+                <div class="carchive-app-left-side col-lg-7">
+                    <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                        <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
+                        <p class="text fs-4 text-cadet-grey m-0">
+                            Jeux Developers Came Into Existence After Two
+                            Tech Enthusiasts From Different Backgrounds
+                            Joined Forces To Create Something Bound To
+                            Become A Difference-Maker In The Digital
+                            World.
+                            <br>
+                            The Company Started In 2018 As A Mobile App
+                            Development Company But Has Since Grown Into
+                            A Full-Stack Digital Transformation Organization
+                            Offering Enterprise Software Development And
+                            Technical Consultancy Services For Businesses
+                            Worldwide.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2">
+                    <img src="{{ asset('assets/images/team1.png') }}" alt=""
+                        class="me-lg-5 carchive-web-img img-fluid" width="100%">
+                </div>
             </div>
         </div>
-
         <div class="impact-box py-3 my-5 shadow-lg bg-light-orange">
             <div class="mx-lg-5 mx-md-5 mx-1 d-lg-flex align-items-center">
                 <div class="carchive-app-left-side col-lg-7">

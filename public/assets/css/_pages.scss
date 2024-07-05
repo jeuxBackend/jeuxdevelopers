@@ -1,4 +1,16 @@
-a{
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(#bbbbbb7e 1px, transparent 0.1em),
+        linear-gradient(90deg, #bbbbbb7e 1px, transparent 0.1em);
+    background-size: 3.3em 3.3em;
+}
+
+a {
     text-decoration: none !important;
 }
 .home-banner {
@@ -117,7 +129,7 @@ a{
 }
 
 .portfolio-banner {
-    background-image: url("../images/portfolio-bg.png");
+    // background-image: url("../images/portfolio-bg.png");
     min-height: 70vh;
     width: 100%;
     background-position: center;
@@ -164,6 +176,7 @@ a{
 .about-jeux-deevelopers {
     min-height: auto;
     position: relative;
+    background-color: #fff;
     .project-detail {
         background-image: url("../images/about-jeux-bg.png");
         background-repeat: no-repeat;
@@ -299,7 +312,7 @@ footer {
             justify-content: center;
             transition: all 0.3s;
             // scale: 1.2;
-            &:hover{
+            &:hover {
                 scale: 1.2;
                 transition: all 0.2s;
             }
