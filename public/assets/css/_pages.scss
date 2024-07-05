@@ -196,3 +196,110 @@
         top: -30px;
     }
 }
+
+.location-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+        0deg,
+        rgb(19, 101, 225, 1) 0%,
+        rgba(11, 57, 169, 1) 56%,
+        rgba(255, 255, 255, 1) 56%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
+
+.location-box div {
+    background-color: #272d3b;
+}
+
+.idea-box {
+    font-family: "Raleway", sans-serif;
+    background: rgb(1, 198, 252);
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(1, 198, 252, 1) 0%,
+        rgb(19, 101, 225, 1) 100%
+    );
+    /* background: linear-gradient(
+        0deg,
+        rgba(0, 212, 255, 1) 100%,
+        rgb(1, 198, 252, 1) 0%
+    ); */
+}
+.idea-box .form-control {
+    color: #fff;
+    border-radius: 0px !important;
+    background: transparent !important;
+    border-bottom: 2px solid #fff !important;
+}
+.idea-box .nice-select .option {
+    background: transparent !important;
+    color: #000000;
+}
+.idea-box .form-control::placeholder {
+    color: #fff;
+}
+.idea-box button {
+    border-radius: 30px;
+}
+.links-section > .address > p {
+    font-size: 13px;
+}
+.links-section > .address > p > a {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.links-section .social-btn {
+    background-color: #000;
+    display: block;
+    padding: 7px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+.links-section .social-btn {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+footer .footer-btn {
+    background: linear-gradient(
+        0deg,
+        rgba(1, 198, 252, 1) 0%,
+        rgba(15, 66, 189, 1) 100%
+    );
+    border-radius: 30px;
+    border: none;
+    box-shadow: none !important;
+}
+
+.links-section > div {
+    border-right: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+.links-section > div:last-child {
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .links-section > div {
+        border-bottom: none;
+        border-right: 1px solid #e1e1e1;
+    }
+    .links-section > div:last-child {
+        border: none;
+    }
+}

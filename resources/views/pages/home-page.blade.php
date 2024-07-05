@@ -713,6 +713,7 @@
                 </div> --}}
             </div>
         </div>
+        @include('include.footer')
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
