@@ -308,7 +308,7 @@
             </div>
         </div>
 
-        <div class="portfolio-banner my-4 py-5" id="container2">
+        <div class="portfolio-banner my-lg-4 my-md-4 my-2 py-5" id="container2">
             <div class="portfolio-heading">
                 <div class="d-flex flex-column align-items-center mt-4 position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
@@ -463,7 +463,7 @@
             </div>
         </div>
 
-        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
+        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-lg-5 my-md-5 my-2 radius-20 d-lg-flex align-items-center">
             <div class="estate-pie-left-side col-lg-5">
                 <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <div class="esate-pie-logo">
@@ -490,7 +490,7 @@
             </div>
         </div>
 
-        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-lg-5 my-md-5 my-2 radius-20 d-lg-flex align-items-center">
             <div class="left-corner">
                 <img src="{{ asset('assets/images/left-corner.png') }}"
                     class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt="" width="200px">
@@ -524,7 +524,7 @@
             </div>
         </div>
 
-        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-lg-5 my-md-5 my-2 radius-20 d-lg-flex align-items-center">
             <div class="estate-pie-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <div class="esate-pie-app-logo">
@@ -549,7 +549,7 @@
             </div>
         </div>
 
-        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-lg-5 my-md-5 my-2 radius-20 d-lg-flex align-items-center">
             <div class="right-corner">
                 <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0"
                     alt="" width="235px">
@@ -579,7 +579,7 @@
             </div>
         </div>
 
-        <div class="about-jeux-deevelopers my-5 py-5 mt-5">
+        <div class="about-jeux-deevelopers my-lg-5 my-md-5 my-2 py-5 mt-5">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
                     <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
@@ -627,7 +627,7 @@
             </div>
         </div>
 
-        <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+        <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-lg-5 my-md-5 my-2 radius-20 d-lg-flex align-items-center">
             <div class="carchive-app-left-side col-lg-7">
                 <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
@@ -653,7 +653,7 @@
             </div>
         </div>
 
-        <div class="impact-box py-3 my-5 shadow-lg bg-light-orange">
+        <div class="impact-box py-3 my-lg-5 my-md-5 my-2 shadow-lg bg-light-orange">
             <div class="mx-lg-5 mx-md-5 mx-1 d-lg-flex align-items-center">
                 <div class="carchive-app-left-side col-lg-7">
                     <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
@@ -679,7 +679,7 @@
             </div>
         </div>
 
-        <div class="our-clients mx-lg-5 mt-5">
+        <div class="our-clients mx-lg-5 mt-lg-5 mt-md-5 mt-2">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/client-text.png') }}" alt="" width="270px"

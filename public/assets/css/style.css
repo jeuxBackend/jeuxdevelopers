@@ -506,6 +506,9 @@ footer .social-buttons span:hover {
   .whatsapp-btn, .call-btn {
     display: none !important;
   }
+  .contact-icons {
+    display: block !important;
+  }
 }
 @media only screen and ((max-width: 1080px) and (min-width: 992px)) {
   .call-btn,
