@@ -472,10 +472,11 @@
                         </div>
                         <p class="heading fs-45 fw-bold text-blue"> Your Management And Listing Platform.</p>
                         <p class="text fs-4 text-blue">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem
-                            culpa
-                            officiis delectus minus iure eum velit.
-                            totam?
+                            Welcome to Estatepie website, for property sale, purchase, and lease. Available on Web,
+                            Estatepie simplifies property management by enabling users to efficiently manage tenants and
+                            handle real estate transactions. Whether you're a landlord seeking to streamline your
+                            management tasks or a tenant in search of a new home, Estatepie provides a seamless and
+                            convenient experience for all your real estate needs.
                         </p>
                         <div class="button">
                             <a href="#!"
@@ -510,9 +511,11 @@
                         </div>
                         <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
                         <p class="text fs-4 text-white m-0">
-                            Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By
-                            Adding
-                            Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
+                            Welcome to Carchive, your comprehensive mobile solution for managing cars, drivers' logs,
+                            and car maintenance. Available on both Android and iOS platforms, Carchive also provides
+                            garage owners with detailed maintenance records. Whether you’re a car owner looking to keep
+                            track of your vehicle’s maintenance or a garage owner managing service records, Carchive
+                            offers a seamless and efficient way to handle all your automotive needs.
                         </p>
                         <div class="button">
                             <a href="#!"
@@ -536,10 +539,10 @@
                         </div>
                         <p class="heading fs-45 fw-bold text-white"> Your Management And Listing Platform.</p>
                         <p class="text fs-4 text-white">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo itaque exercitationem
-                            culpa
-                            officiis delectus minus iure eum velit.
-                            totam?
+                            Estatepie is a versatile app designed for property sale, purchase, and lease, available on
+                            both Android and iOS platforms. It empowers users to manage tenants efficiently, making
+                            property management seamless and convenient. Whether you're a landlord or a tenant,
+                            Estatepie simplifies the entire real estate process.
                         </p>
                         <div class="button">
                             <a href="#!"
@@ -568,9 +571,7 @@
                         </div>
                         <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
                         <p class="text fs-4 text-white m-0">
-                            Manage Your Personal Or Company Vehicle With <span class="fw-bold">OTTOFLEET</span> By
-                            Adding
-                            Your Maintenance Record To Your Vehicle History With Just Simple Clicks.
+                            Welcome to Carchive, your comprehensive web solution for managing cars, drivers' logs, and car maintenance. Available on web, Carchive also provides garage owners with detailed maintenance records. Our web portal offers companies and individuals an efficient way to manage their fleets and personal vehicles. Whether you’re a car owner tracking your vehicle’s maintenance, a garage owner managing service records, or a company overseeing a fleet, Carchive offers a seamless and efficient platform to handle all your automotive needs.
                         </p>
                         <div class="button">
                             <a href="#!"
