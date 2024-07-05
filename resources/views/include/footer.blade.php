@@ -1,4 +1,4 @@
-<footer>
+<footer id="contactUs">
     <div class="location-box">
         <div class="col-lg-10 col-12 row mx-0 px-lg-2">
             <div class="col-lg-6 col-md-7 px-4 d-flex flex-column justify-content-center text-light">
@@ -120,7 +120,7 @@
                 <a href="#!" class="fs-5 text-white">Use cases</a>
             </dive>
         </div>
-        <div class="col-xl-2">
+        <div class="col-xl-2" id="areas">
             <h2 class="fw-bold">Areas</h2>
             <dive class="d-flex justify-content-center gap-2 mt-3 flex-column">
                 <a href="#!" class="fs-5 text-white">Gulf Cooperation Council</a>

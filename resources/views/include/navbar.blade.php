@@ -27,17 +27,17 @@
                         aria-current="page" href="#">HOME</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#">SERVICES</a>
+                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#">AREA</a>
+                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#areas">AREA</a>
                 </li>
-                <li class="nav-item dropdown px-1">
-                    <a class="nav-link dropdown-toggle text-rock-black fw-bold" href="#" id="navbarDropdown"
-                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item px-1">
+                    <a class="nav-link text-rock-black fw-bold" href="#aboutUs" id="navbarDropdown">
+                        {{-- role="button" data-bs-toggle="dropdown" aria-expanded="false" --}}
                         About Us
                     </a>
                     {{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -59,7 +59,7 @@
                         alt="">
                     WHATSAPP
                 </a>
-                <a href="#!" class="btn contact-btn px-4 border-0 shadow mt-lg-0 mt-2">CONTACTUS</a>
+                <a href="#contactUs" class="btn contact-btn px-4 border-0 shadow mt-lg-0 mt-2">CONTACTUS</a>
             </div>
         </div>
     </div>

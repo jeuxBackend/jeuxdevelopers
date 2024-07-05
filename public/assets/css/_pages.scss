@@ -7,7 +7,7 @@ body {
     background-color: #f0f0f0;
     background-image: linear-gradient(#bbbbbb7e 1px, transparent 0.1em),
         linear-gradient(90deg, #bbbbbb7e 1px, transparent 0.1em);
-    background-size: 3.3em 3.3em;
+    background-size: 38px 38px;
 }
 
 a {
@@ -328,4 +328,24 @@ footer {
             }
         }
     }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fa6b12;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
 }

@@ -113,7 +113,7 @@
             </div>
         </div>
 
-        <div class="primary-service py-4 pb-2">
+        <div class="primary-service py-4 pb-0" id="services">
             <div class="service-heading">
                 <div class="d-flex flex-column align-items-center mx-lg-0 mx-md-0 mx-3 position-relative">
                     <img src="{{ asset('assets/images/primary-text.png') }}" alt="" width="550px"
@@ -308,9 +308,9 @@
             </div>
         </div>
 
-        <div class="portfolio-banner my-lg-4 my-md-4 my-2 py-5" id="container2">
+        <div class="portfolio-banner my-lg-4 mt-2 my-md-4 my-2 py-5" id="portfolio">
             <div class="portfolio-heading">
-                <div class="d-flex flex-column align-items-center mt-4 position-relative">
+                <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
                         class="img-fluid position-absolute portfolio-text">
                     <img src="{{ asset('assets/images/portfolio-img.png') }}" alt="" width="300px"
@@ -585,7 +585,7 @@
                 </div>
             </div>
 
-            <div class="about-jeux-deevelopers my-5 py-5 mt-5">
+            <div class="about-jeux-deevelopers my-5 py-5 mt-5" id="aboutUs">
                 <div class="jeux-developers-heading">
                     <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
                         <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
@@ -605,25 +605,25 @@
                         Through Top-Tier Product Teams
                     </p>
                     <div class="mx-0 row gap-3">
-                        <div class="col mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card">
                             <span class="font-railway text-dark-orange">
                                 100+
                             </span>
                             <p class="text-cadet-grey fs-3 text-center">Successfully Completed Projects</p>
                         </div>
-                        <div class="col mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card">
                             <span class="font-railway text-dark-orange">
                                 300+
                             </span>
                             <p class="text-cadet-grey fs-3 text-center mt-lg-2">In-House Engineers</p>
                         </div>
-                        <div class="col mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card">
                             <span class="font-railway text-dark-orange">
                                 20+
                             </span>
                             <p class="text-cadet-grey fs-3 text-center">Industries Served</p>
                         </div>
-                        <div class="col mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card">
                             <span class="font-railway text-dark-orange">
                                 65+
                             </span>
