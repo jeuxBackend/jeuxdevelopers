@@ -133,6 +133,10 @@
   justify-content: center;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .home-banner {
   position: relative;
   background-position: center;
@@ -316,6 +320,125 @@
 
 .jeux-developers-heading .jeux-text {
   top: -30px;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 20px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(0deg, #fa6b12 0%, #fa6b12 56%, rgb(255, 255, 255) 56%, rgb(255, 255, 255) 100%);
+}
+
+.location-box div {
+  background-color: #000;
+}
+
+.idea-box {
+  font-family: "Raleway", sans-serif;
+  background: rgb(1, 198, 252);
+  width: 100%;
+  background: #fa6b12;
+}
+
+.idea-box .form-control {
+  color: #fff;
+  border-radius: 0px !important;
+  background: transparent !important;
+  border-bottom: 2px solid #fff !important;
+}
+
+.idea-box .nice-select .option {
+  background: transparent !important;
+  color: #000000;
+}
+
+.idea-box .form-control::-moz-placeholder {
+  color: #fff;
+}
+
+.idea-box .form-control::placeholder {
+  color: #fff;
+}
+
+.idea-box button {
+  border-radius: 30px;
+}
+
+.links-section > .address > p {
+  font-size: 13px;
+}
+
+.links-section > .address > p > a {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.links-section .social-btn {
+  background-color: #000;
+  display: block;
+  padding: 7px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 5px;
+}
+
+.links-section .social-btn {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+footer .footer-btn {
+  background: linear-gradient(0deg, rgb(1, 198, 252) 0%, rgb(15, 66, 189) 100%);
+  border-radius: 30px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.links-section > div {
+  border-right: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.links-section > div:last-child {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .links-section > div {
+    border-bottom: none;
+    border-right: 1px solid #e1e1e1;
+  }
+  .links-section > div:last-child {
+    border: none;
+  }
+}
+footer .social-buttons {
+  text-decoration: none;
+}
+footer .social-buttons span {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+footer .social-buttons span:hover {
+  scale: 1.2;
+  transition: all 0.2s;
 }
 
 .navbar-expand-lg {

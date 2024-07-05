@@ -29,6 +29,7 @@
                     class="img-fluid p-0">
             </div>
         </header>
+
         <div class="carasoule position-relative py-3 mb-5 col-12">
             <div class="ms-lg-5 ms-md-5 mx-lg-0 mx-md-0 mx-3 multiple-items">
                 <div>
@@ -95,6 +96,7 @@
                 </div>
             </div>
         </div>
+
         <div class="primary-service">
             <div class="service-heading">
                 <div class="d-flex flex-column align-items-center mx-lg-0 mx-md-0 mx-3 position-relative">
@@ -111,7 +113,8 @@
             <div class="row mx-lg-5 mx-md-3 mx-2 my-lg-5 my-md-5 my-2">
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -131,7 +134,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -149,9 +153,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -169,9 +175,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -189,9 +197,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -209,9 +219,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -229,9 +241,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -249,9 +263,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -269,9 +285,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card border py-5 radius-20">
-                        <h4 class="mb-0 fw-bold fs-2"><span class="d-xl-inline d-block">Custom Software</span>
+                        <h4 class="mb-0 fw-bold fs-2">
+                            <span class="d-xl-inline d-block">Custom Software</span>
                             Development
                         </h4>
                         <p class="fw-bold my-2">
@@ -462,7 +480,9 @@
                     </p>
                     <div class="button">
                         <a href="#!"
-                            class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn More</a>
+                            class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">
+                            Learn More
+                        </a>
                     </div>
                 </div>
             </div>
@@ -474,10 +494,12 @@
 
         <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="left-corner">
-                <img src="{{ asset('assets/images/left-corner.png') }}" class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt="" width="200px">
+                <img src="{{ asset('assets/images/left-corner.png') }}"
+                    class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt="" width="200px">
             </div>
             <div class="right-corner">
-                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
+                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0"
+                    alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
@@ -531,7 +553,8 @@
 
         <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="right-corner">
-                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
+                <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0"
+                    alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
                 <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
@@ -632,7 +655,6 @@
             </div>
         </div>
 
-
         <div class="our-clients mx-lg-5 mt-5">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
@@ -648,40 +670,42 @@
                 </p>
             </div>
             <div class="project-iamges row mx-0 py-lg-5 py-md-5 py-0">
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/trekend.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/security.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/seekooh.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/mr-fitx.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/p2p.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/divinity.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/sit-stand.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/carchive.png')}}" alt="" class="w-100">
-              </div>
-              <div class="col-xl-3 col-lg-4 p-2">
-                <img src="{{asset('assets/images/projects/yuka.png')}}" alt="" class="w-100">
-              </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/trekend.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/security.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/seekooh.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/mr-fitx.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/p2p.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/divinity.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/sit-stand.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/carchive.png') }}" alt="" class="w-100">
+                </div>
+                <div class="col-xl-3 col-lg-4 p-2">
+                    <img src="{{ asset('assets/images/projects/yuka.png') }}" alt="" class="w-100">
+                </div>
             </div>
         </div>
+
         @include('include.footer')
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
     <script src="{{ asset('assets/libraries/js/slick.min.js') }}"></script>
+
     <script>
         $(function() {
             $('.press').mouseenter(function() {
@@ -695,16 +719,6 @@
             });
         });
     </script>
-    {{-- <script>
-        $(function() {
-            $('.hover-img').mouseenter(function() {
-                $(this).parent().siblings('.inner-img').addClass("display-block");
-            }).mouseleave(function() {
-                $(this).parent().siblings('.inner-img').removeClass("display-block");
-            });
-        });
-    </script> --}}
-
     <script>
         $('.multiple-items').slick({
             pauseOnHover: true,
@@ -868,7 +882,6 @@
             ]
         });
     </script>
-
     <script>
         const container = document.getElementById("container");
         const boxSize = 38;
@@ -935,9 +948,6 @@
             });
         }
     </script>
-
-
-
 
 </body>
 

@@ -1,3 +1,6 @@
+a{
+    text-decoration: none !important;
+}
 .home-banner {
     position: relative;
     background-position: center;
@@ -11,10 +14,10 @@
     .mouse-div,
     .keyboard-div {
         pointer-events: none;
-        img{
+        img {
             pointer-events: all;
         }
-        p{
+        p {
             pointer-events: all;
         }
     }
@@ -94,10 +97,8 @@
 .read-more-arrow-hover {
     background-color: #ff6000 !important;
     color: white;
-    // transition: 1s all;
 }
 .read-more-btn {
-    // transition: 500ms all;
     visibility: hidden;
 }
 .read-more-btn-hover {
@@ -115,7 +116,6 @@
     color: white !important;
 }
 
-// portfolio style
 .portfolio-banner {
     background-image: url("../images/portfolio-bg.png");
     min-height: 80vh;
@@ -128,24 +128,16 @@
     }
 }
 
-// Estate pie box styling
-
 .estate-pie-box {
     min-height: 100vh;
-    // width: 100%;
     background-color: #bbeafb;
     position: relative;
-    // top: 20px;
 }
-
-// carchive app box styling
 
 .carchive-app-box {
     min-height: 100vh;
-    // width: 100%;
     background-color: #ff5b00;
     position: relative;
-    // top: 130px;
     .learn-more,
     .carchive-img {
         z-index: 1 !important;
@@ -153,37 +145,25 @@
     }
 }
 
-// Estate pie app box styling
-
 .estate-pie-app-box {
     min-height: 100vh;
-    // width: 100%;
     background-color: #00274d;
     position: relative;
-    // top: 150px;
 }
-
-// carchive web box styling
 
 .carchive-web-box {
     min-height: 100vh;
-    // width: 100%;
     background-color: #ff5b00;
     position: relative;
-    // top: 170px;
     .learn-more {
         z-index: 1 !important;
         position: relative;
     }
 }
 
-// About jeux developers page styling
-
 .about-jeux-deevelopers {
     min-height: auto;
-    // width: 100%;
     position: relative;
-    // top: 170px;
     .project-detail {
         background-image: url("../images/about-jeux-bg.png");
         background-repeat: no-repeat;
@@ -191,6 +171,7 @@
         background-position: center;
     }
 }
+
 .jeux-developers-heading {
     .jeux-text {
         top: -30px;
@@ -206,55 +187,53 @@
     background: rgb(0, 212, 255);
     background: linear-gradient(
         0deg,
-        rgb(19, 101, 225, 1) 0%,
-        rgba(11, 57, 169, 1) 56%,
+        #fa6b12 0%,
+        #fa6b12 56%,
         rgba(255, 255, 255, 1) 56%,
         rgba(255, 255, 255, 1) 100%
     );
 }
 
 .location-box div {
-    background-color: #272d3b;
+    background-color: #000;
 }
 
 .idea-box {
     font-family: "Raleway", sans-serif;
     background: rgb(1, 198, 252);
     width: 100%;
-    background: linear-gradient(
-        0deg,
-        rgba(1, 198, 252, 1) 0%,
-        rgb(19, 101, 225, 1) 100%
-    );
-    /* background: linear-gradient(
-        0deg,
-        rgba(0, 212, 255, 1) 100%,
-        rgb(1, 198, 252, 1) 0%
-    ); */
+    background: #fa6b12;
 }
+
 .idea-box .form-control {
     color: #fff;
     border-radius: 0px !important;
     background: transparent !important;
     border-bottom: 2px solid #fff !important;
 }
+
 .idea-box .nice-select .option {
     background: transparent !important;
     color: #000000;
 }
+
 .idea-box .form-control::placeholder {
     color: #fff;
 }
+
 .idea-box button {
     border-radius: 30px;
 }
+
 .links-section > .address > p {
     font-size: 13px;
 }
+
 .links-section > .address > p > a {
     font-weight: 700;
     font-family: "Raleway", sans-serif;
 }
+
 .links-section .social-btn {
     background-color: #000;
     display: block;
@@ -269,6 +248,7 @@
     object-fit: contain;
     margin-right: 5px;
 }
+
 .links-section .social-btn {
     height: 50px;
     width: 50px;
@@ -290,6 +270,7 @@ footer .footer-btn {
     border-right: none;
     border-bottom: 1px solid #e1e1e1;
 }
+
 .links-section > div:last-child {
     border: none;
 }
@@ -299,7 +280,29 @@ footer .footer-btn {
         border-bottom: none;
         border-right: 1px solid #e1e1e1;
     }
+
     .links-section > div:last-child {
         border: none;
+    }
+}
+
+footer {
+    .social-buttons {
+        text-decoration: none;
+        span {
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            // scale: 1.2;
+            &:hover{
+                scale: 1.2;
+                transition: all 0.2s;
+            }
+        }
     }
 }
