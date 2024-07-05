@@ -323,7 +323,7 @@
                     You Need It The Most.
                 </p>
             </div>
-            <div class="py-5 px-5 mt-5 portfolio-slider multiple-items3">
+            <div class="py-5 px-0 mt-5 portfolio-slider multiple-items3">
                 <div class="hexagon-outer">
                     <div class="hexagon">
                         <div class="hexagon-ring position-absolute">

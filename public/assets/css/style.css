@@ -644,7 +644,7 @@ footer .social-buttons span:hover {
     top: 60% !important;
   }
   .home-page-heading p {
-    font-size: 38px !important;
+    font-size: 35px !important;
     line-height: 40px;
     font-weight: bolder !important;
   }
@@ -665,9 +665,9 @@ footer .social-buttons span:hover {
     width: 120px !important;
   }
   .mouse-div {
-    bottom: 16% !important;
-    right: -1% !important;
-    width: 100px !important;
+    bottom: 20% !important;
+    right: 3% !important;
+    width: 70px !important;
   }
   .keyboard-div {
     bottom: -50px !important;
