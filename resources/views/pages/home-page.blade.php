@@ -124,8 +124,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -146,8 +144,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -168,8 +164,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -190,8 +184,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -212,8 +204,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -234,8 +224,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -256,8 +244,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -278,8 +264,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -300,8 +284,6 @@
                                 <span class="">Read More</span>
                             </a>
                             <span class="read-more-arrow mx-2 radius-10 bg-offwhite position-absolute press">
-                                {{-- <img src="{{ asset('assets/images/icons/arrow-icon.png') }}" alt=""
-                                    width="18px" class=""> --}}
                                 <i class="fa fa-arrow-right"></i>
                             </span>
                         </div>
@@ -310,7 +292,7 @@
             </div>
         </div>
 
-        {{-- <div class="portfolio-banner my-4 py-5" id="">
+        <div class="portfolio-banner my-4 py-5" id="container2">
             <div class="portfolio-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
                     <img src="{{ asset('assets/images/portfolio-text.png') }}" alt="" width="270px"
@@ -463,11 +445,11 @@
                     <p class="w-100 text-center fs-4 fw-bold text-white">Heathcare</p>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
-        {{-- <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 radius-20 row align-items-center">
+        <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
             <div class="estate-pie-left-side col-lg-5">
-                <div class="col-lg-10 ms-5">
+                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <div class="esate-pie-logo">
                         <img src="{{ asset('assets/images/logo/estate-pie-logo.png') }}" alt=""
                             width="160px">
@@ -480,26 +462,26 @@
                     </p>
                     <div class="button">
                         <a href="#!"
-                            class="btn fs-4 px-5 py-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn More</a>
+                            class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 px-0 text-end mt-lg-0 mt-2">
-                <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class="img-fluid"
+            <div class="col-lg-7 px-0 text-end mt-lg-0 mt-lg-2 mt-3">
+                <img src="{{ asset('assets/images/estate-pie-img.png') }}" alt="" class=""
                     width="100%">
             </div>
-        </div> --}}
-{{-- 
-        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
+        </div>
+        
+        <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="left-corner">
-                <img src="{{ asset('assets/images/left-corner.png') }}" class="position-absolute top-0 end-0" alt="" width="200px">
+                <img src="{{ asset('assets/images/left-corner.png') }}" class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt="" width="200px">
             </div>
             <div class="right-corner">
                 <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-5">
-                    <div class="carchive-logo d-flex gap-3 align-items-center">
+                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                    <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
                         <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
                             width="70px">
                         <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
@@ -520,11 +502,11 @@
                 <img src="{{ asset('assets/images/carchive-img.png') }}" alt=""
                     class="me-lg-5 carchive-img img-fluid col-lg-7 col-10">
             </div>
-        </div> --}}
+        </div>
 
-        {{-- <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
+        <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="estate-pie-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-5">
+                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <div class="esate-pie-app-logo">
                         <img src="{{ asset('assets/images/logo/estate-pie-app-logo.png') }}" alt=""
                             width="180px">
@@ -545,15 +527,15 @@
                 <img src="{{ asset('assets/images/estate-pie-app-img.png') }}" alt=""
                     class="img-fluid col-lg-12">
             </div>
-        </div> --}}
-{{-- 
-        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 radius-20 row align-items-center">
+        </div>
+        
+        <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="right-corner">
                 <img src="{{ asset('assets/images/right-corner.png') }}" class="position-absolute bottom-0 start-0" alt="" width="235px">
             </div>
             <div class="carchive-app-left-side col-lg-5">
-                <div class="col-lg-10 ms-5">
-                    <div class="carchive-logo d-flex gap-3 align-items-center">
+                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
+                    <div class="carchive-logo d-flex gap-3 align-items-center mt-lg-0 mt-md-0 mt-3">
                         <img src="{{ asset('assets/images/logo/carchive-logo.png') }}" alt=""
                             width="70px">
                         <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
@@ -574,11 +556,11 @@
                 <img src="{{ asset('assets/images/carchive-web-img.png') }}" alt=""
                     class="me-lg-5 carchive-web-img img-fluid" width="98%">
             </div>
-        </div> --}}
+        </div>
 
-        {{-- <div class="about-jeux-deevelopers my-4 py-5 mt-5">
+        <div class="about-jeux-deevelopers my-5 py-5 mt-5">
             <div class="jeux-developers-heading">
-                <div class="d-flex flex-column align-items-center position-relative">
+                <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
                     <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
                         class="img-fluid position-absolute jeux-text">
                     <img src="{{ asset('assets/images/about-jeux-img.png') }}" alt="" width="850px"
@@ -591,7 +573,7 @@
                 </p>
             </div>
             <div class="project-detail py-5">
-                <p class="fs-45 text-center text-white fw-bold py-5">
+                <p class="text fs-45 text-center text-white fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
                     In Pursuit Of Scaling The Digital Ecosystem<br>
                     Through Top-Tier Product Teams
                 </p>
@@ -622,11 +604,11 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
-        {{-- <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 radius-20 row align-items-center">
+        <div class="story-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
             <div class="carchive-app-left-side col-lg-7">
-                <div class="col-lg-10 ms-5">
+                <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                     <p class="heading fs-45 fw-bold text-dark-orange mb-0"> Our Story</p>
                     <p class="text fs-4 text-cadet-grey m-0">
                         Jeux Developers Came Into Existence After Two
@@ -648,53 +630,53 @@
                 <img src="{{ asset('assets/images/meeting.png') }}" alt=""
                     class="me-lg-5 carchive-web-img img-fluid" width="100%">
             </div>
-        </div> --}}
+        </div>
 
-        
-        {{-- <div class="pour-clients mx-lg-5">
+
+        <div class="our-clients mx-lg-5 mt-5">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
-                    <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
-                        class="img-fluid position-absolute jeux-text">
-                    <img src="{{ asset('assets/images/about-jeux-img.png') }}" alt="" width="850px"
-                        class="img-fluid">
+                    <img src="{{ asset('assets/images/client-text.png') }}" alt="" width="270px"
+                        class="img-fluid position-absolute portfolio-text">
+                    <img src="{{ asset('assets/images/client-img.png') }}" alt="" width="300px"
+                        class="img-fluid mt-4">
                 </div>
                 <p class="text-center fs-5 text-cadet-grey mt-3">
-                    We Contribute TO These Partnership Programs, Supported By Global
-                    Technology Experts. Partnering With Industry Leaders, We Offer Quality
-                    Technology Solutions That Meet Your Business Needs.
+                    We Contribute TO These Partnership Programs, Supported By Global<br>
+                    Technology Experts. Partnering With Industry Leaders, We Offer Quality<br>
+                    Technology Solutions That Meet Your Business Needs.<br>
                 </p>
             </div>
-            <div class="project-iamges row py-5">
-              <div class="col-xl-3 col-lg-4 p-4">
+            <div class="project-iamges row mx-0 py-lg-5 py-md-5 py-0">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/trekend.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/security.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/seekooh.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/mr-fitx.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/p2p.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/divinity.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/sit-stand.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/carchive.png')}}" alt="" class="w-100">
               </div>
-              <div class="col-xl-3 col-lg-4 p-4">
+              <div class="col-xl-3 col-lg-4 p-2">
                 <img src="{{asset('assets/images/projects/yuka.png')}}" alt="" class="w-100">
               </div>
             </div>
-        </div> --}}
+        </div>
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
@@ -952,6 +934,9 @@
             });
         }
     </script>
+   
+
+
 
 </body>
 

@@ -1,9 +1,139 @@
-@media only screen and (max-width:720px){
-    // primary service page
-    // .primary-text{
-    //     width:350px;
-    // }
-    // .primary-service{
-    //     width: 370px;
-    // }
+@media only screen and (max-width:535px){
+     .estate-pie-box{
+        .heading{
+            font-size: 25px !important;
+        }
+        .text{
+            font-size: 17px !important;
+        }
+    }
+
+    .carchive-app-box{
+        .heading{
+            font-size: 60px;
+        }
+        .text{
+            font-size: 17px;
+        }
+    }
+    .estate-pie-app-box{
+        .heading{
+            font-size: 25px !important;
+        }
+        .text{
+            font-size: 17px !important;
+        }
+    }
+    .carchive-web-box{
+        .heading{
+            font-size: 60px;
+        }
+        .text{
+            font-size: 17px;
+        }
+    }
+    .about-jeux-deevelopers{
+        .jeux-text{
+            margin-top:10px;
+        }
+        .text-cadet-grey{
+            font-size: 17px;
+        }
+        .project-detail{
+            .text{
+                font-size: 25px;
+            }
+        }
+    }
+    .story-box{
+        .text{
+            font-size: 17px;
+        }
+    }
+}
+@media only screen and (max-width:1400px){
+    .home-page-heading {
+        top:50% !important;
+        p{
+        font-size: 55px !important;
+        }
+    }
+    .cofee-cup-div {
+        top: 30% !important;
+    }
+}
+@media only screen and (max-width:1000px){
+    .home-page-heading {
+        p{
+        font-size: 40px !important;
+        }
+    }
+    .lcd-div {
+       width: 100% !important;
+    }
+
+    .cofee-cup-div {
+        top: 30% !important;
+    }
+    .mouse-div {
+        bottom: 30% !important;
+        right: 7% !important;
+    }
+    .keyboard-div {
+        bottom: 0px !important;
+    }
+}
+@media only screen and (max-width:730px){
+    .home-page-heading {
+        top:45% !important;
+        p{
+        font-size: 35px !important;
+        }
+    }
+    .lcd-div {
+       width: 100% !important;
+       img{
+        width: 95% !important;
+       }
+    }
+
+    .cofee-cup-div {
+        top: 23% !important;
+    }
+    .mouse-div {
+        bottom: 35% !important;
+        right: 2% !important;
+    }
+    .keyboard-div {
+        bottom: 15% !important;
+    }
+}
+@media only screen and (max-width:530px){
+  
+    .home-page-heading {
+        top:45% !important;
+        p{
+        font-size: 25px !important;
+        }
+    }
+    .lcd-div {
+       width: 100% !important;
+       img{
+        width: 93% !important;
+        height: 90px !important;
+       }
+    }
+
+    .cofee-cup-div {
+        top: 20% !important;
+        left: 4% !important;
+    }
+    .mouse-div {
+        bottom: 30% !important;
+        right: 2% !important;
+    }
+    .keyboard-div {
+        bottom: 10% !important;
+
+    }
 }

@@ -62,6 +62,10 @@
   border-radius: 50px;
 }
 
+.z-index-1 {
+  z-index: 1 !important;
+}
+
 .portfolio-slider {
   background-color: #fa6b12;
 }
@@ -144,6 +148,20 @@
 .home-banner .keyboard-div {
   pointer-events: none;
 }
+.home-banner .lcd-div img,
+.home-banner .cofee-cup-div img,
+.home-banner .home-page-heading img,
+.home-banner .mouse-div img,
+.home-banner .keyboard-div img {
+  pointer-events: all;
+}
+.home-banner .lcd-div p,
+.home-banner .cofee-cup-div p,
+.home-banner .home-page-heading p,
+.home-banner .mouse-div p,
+.home-banner .keyboard-div p {
+  pointer-events: all;
+}
 .home-banner .lcd-div {
   position: absolute;
   top: 100px;
@@ -157,7 +175,7 @@
 }
 .home-banner .home-page-heading {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -256,14 +274,12 @@
   min-height: 100vh;
   background-color: #bbeafb;
   position: relative;
-  top: 110px;
 }
 
 .carchive-app-box {
   min-height: 100vh;
   background-color: #ff5b00;
   position: relative;
-  top: 130px;
 }
 .carchive-app-box .learn-more,
 .carchive-app-box .carchive-img {
@@ -275,14 +291,12 @@
   min-height: 100vh;
   background-color: #00274d;
   position: relative;
-  top: 150px;
 }
 
 .carchive-web-box {
   min-height: 100vh;
   background-color: #ff5b00;
   position: relative;
-  top: 170px;
 }
 .carchive-web-box .learn-more {
   z-index: 1 !important;
@@ -290,9 +304,8 @@
 }
 
 .about-jeux-deevelopers {
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
-  top: 170px;
 }
 .about-jeux-deevelopers .project-detail {
   background-image: url("../images/about-jeux-bg.png");
@@ -311,7 +324,7 @@
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
   border-bottom-right-radius: 5px;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .call-btn {
@@ -350,4 +363,132 @@
 }
 .contact-btn:hover {
   color: white;
+}
+
+@media only screen and ((max-width: 1080px) and (min-width: 992px)) {
+  .call-btn, .whatsapp-btn, .contact-btn, .nav-link {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-expand-lg {
+    border-radius: 35px;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .estate-pie-box .heading {
+    font-size: 25px !important;
+  }
+  .estate-pie-box .text {
+    font-size: 17px !important;
+  }
+  .carchive-app-box .heading {
+    font-size: 60px;
+  }
+  .carchive-app-box .text {
+    font-size: 17px;
+  }
+  .estate-pie-app-box .heading {
+    font-size: 25px !important;
+  }
+  .estate-pie-app-box .text {
+    font-size: 17px !important;
+  }
+  .carchive-web-box .heading {
+    font-size: 60px;
+  }
+  .carchive-web-box .text {
+    font-size: 17px;
+  }
+  .about-jeux-deevelopers .jeux-text {
+    margin-top: 10px;
+  }
+  .about-jeux-deevelopers .text-cadet-grey {
+    font-size: 17px;
+  }
+  .about-jeux-deevelopers .project-detail .text {
+    font-size: 25px;
+  }
+  .story-box .text {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .home-page-heading {
+    top: 50% !important;
+  }
+  .home-page-heading p {
+    font-size: 55px !important;
+  }
+  .cofee-cup-div {
+    top: 30% !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .home-page-heading p {
+    font-size: 40px !important;
+  }
+  .lcd-div {
+    width: 100% !important;
+  }
+  .cofee-cup-div {
+    top: 30% !important;
+  }
+  .mouse-div {
+    bottom: 30% !important;
+    right: 7% !important;
+  }
+  .keyboard-div {
+    bottom: 0px !important;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .home-page-heading {
+    top: 45% !important;
+  }
+  .home-page-heading p {
+    font-size: 35px !important;
+  }
+  .lcd-div {
+    width: 100% !important;
+  }
+  .lcd-div img {
+    width: 95% !important;
+  }
+  .cofee-cup-div {
+    top: 23% !important;
+  }
+  .mouse-div {
+    bottom: 35% !important;
+    right: 2% !important;
+  }
+  .keyboard-div {
+    bottom: 15% !important;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .home-page-heading {
+    top: 45% !important;
+  }
+  .home-page-heading p {
+    font-size: 25px !important;
+  }
+  .lcd-div {
+    width: 100% !important;
+  }
+  .lcd-div img {
+    width: 93% !important;
+    height: 90px !important;
+  }
+  .cofee-cup-div {
+    top: 20% !important;
+    left: 4% !important;
+  }
+  .mouse-div {
+    bottom: 30% !important;
+    right: 2% !important;
+  }
+  .keyboard-div {
+    bottom: 10% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -11,6 +11,12 @@
     .mouse-div,
     .keyboard-div {
         pointer-events: none;
+        img{
+            pointer-events: all;
+        }
+        p{
+            pointer-events: all;
+        }
     }
 
     .lcd-div {
@@ -28,7 +34,7 @@
 
     .home-page-heading {
         position: absolute;
-        top: 65%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -65,7 +71,6 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    // background-color:  !important;
     overflow: hidden;
 }
 
@@ -130,7 +135,7 @@
     // width: 100%;
     background-color: #bbeafb;
     position: relative;
-    top: 110px;
+    // top: 20px;
 }
 
 // carchive app box styling
@@ -140,7 +145,7 @@
     // width: 100%;
     background-color: #ff5b00;
     position: relative;
-    top: 130px;
+    // top: 130px;
     .learn-more,
     .carchive-img {
         z-index: 1 !important;
@@ -155,7 +160,7 @@
     // width: 100%;
     background-color: #00274d;
     position: relative;
-    top: 150px;
+    // top: 150px;
 }
 
 // carchive web box styling
@@ -165,7 +170,7 @@
     // width: 100%;
     background-color: #ff5b00;
     position: relative;
-    top: 170px;
+    // top: 170px;
     .learn-more {
         z-index: 1 !important;
         position: relative;
@@ -175,10 +180,10 @@
 // About jeux developers page styling
 
 .about-jeux-deevelopers {
-    min-height: 100vh;
+    min-height: auto;
     // width: 100%;
     position: relative;
-    top: 170px;
+    // top: 170px;
     .project-detail {
         background-image: url("../images/about-jeux-bg.png");
         background-repeat: no-repeat;

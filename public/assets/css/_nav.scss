@@ -4,7 +4,7 @@
     border-bottom-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 5px;
-    z-index: 1;
+    z-index: 1000;
 }
 .call-btn{
     background-color: black;
@@ -39,5 +39,16 @@
     border-bottom-right-radius: 7px;
     &:hover{
         color: white;
+    }
+}
+
+@media only screen and ((max-width:1080px) and (min-width:992px)){
+    .call-btn, .whatsapp-btn, .contact-btn, .nav-link{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:600px){
+    .navbar-expand-lg{
+        border-radius: 35px;
     }
 }
