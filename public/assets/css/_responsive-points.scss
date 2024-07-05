@@ -109,31 +109,51 @@
     }
 }
 @media only screen and (max-width:530px){
-  
+  .home-banner{
+    height: 77vh !important;
+  }
     .home-page-heading {
-        top:45% !important;
+        top:60% !important;
         p{
-        font-size: 25px !important;
+        font-size: 38px !important;
+        line-height: 40px;
+        font-weight: bolder !important;
         }
     }
     .lcd-div {
        width: 100% !important;
-       img{
-        width: 93% !important;
-        height: 90px !important;
+       .lcd-img1{
+        display: none !important;
+       }
+       .lcd-img2{
+        display: block !important;
+        width: 90% !important;
+        margin-left: 7px !important;
        }
     }
 
     .cofee-cup-div {
-        top: 20% !important;
-        left: 4% !important;
+        top: 27% !important;
+        left: -17% !important;
+        width: 120px !important;
     }
     .mouse-div {
-        bottom: 30% !important;
-        right: 2% !important;
+        bottom: 16% !important;
+        right: -1% !important;
+        width: 100px !important;
     }
     .keyboard-div {
-        bottom: 10% !important;
-
+        bottom: -50px !important;
+    width:300px !important;
+    }
+}
+@media only screen and (max-width:600px){
+    .lcd-div {
+        position: absolute;
+        top: 75px !important;
+        z-index: 1;
+    }
+    .skill{
+        width: 140px !important;
     }
 }
