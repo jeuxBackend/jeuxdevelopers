@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light mx-lg-4 mx-md-4 mx-2 py-3" id="navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand p-0" href="#">
+        <a class="navbar-brand p-0" href="/">
             <img src="{{ asset('assets/images/logo/logo.png') }}" alt="" width="100px" class="ms-3 logo">
         </a>
         {{-- <a href="#!" class="btn contact-btn-2 px-4 border-0 shadow-none mt-lg-0 mt-2">CONTACTUS</a> --}}
         <div class="text-end contact-icons w-50 d-none">
-            <a href="#!" class="text-decoration-none">
+            <a href="tel:+13153550065" class="text-decoration-none">
                 <img src="{{ asset('assets/images/icons/call-icon.png') }}" width="25px" class="me-3 mt-1"
                     alt="">
             </a>
-            <a href="#!" class="text-decoration-none">
+            <a href="https://wa.me/13153550065" class="text-decoration-none" target="_blank">
                 <img src="{{ asset('assets/images/icons/whatsapp-icon.png') }}" width="25px" class="me-3 mt-1"
                     alt="">
             </a>
@@ -30,7 +30,8 @@
                     <a class="nav-link active text-rock-black @if ($page == 'services') text-dark-orange fs-6 @endif fw-bold" aria-current="page" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                    <a class="nav-link active text-rock-black fw-bold" aria-current="page"
+                        href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#areas">AREA</a>
@@ -51,9 +52,9 @@
                 </li>
             </ul>
             <div class="contact-btns">
-                <a href="#!" class="btn call-btn px-4 border-0 shadow me-2 mt-lg-0 mt-2">Call</a>
+                <a href="tel:13153550065" class="btn call-btn px-4 border-0 shadow me-2 mt-lg-0 mt-2">Call</a>
                 {{-- <a href="#!" class="btn  px-2 rounded-pill border-0 shadow-none">WHATSAPP</a> --}}
-                <a href="#!"
+                <a href="https://wa.me/13153550065" target="_blank"
                     class="btn whatsapp-btn d-inline-flex px-3 align-items-center shadow d-inline rounded-pill me-2 mt-lg-0 mt-2">
                     <img src="{{ asset('assets/images/icons/whatsapp-icon.png') }}" width="25px" class="me-2"
                         alt="">
