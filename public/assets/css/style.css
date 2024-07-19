@@ -615,6 +615,10 @@ footer .social-buttons span:hover {
   color: white !important;
 }
 
+.project-div {
+  width: 700px !important;
+}
+
 .navbar-expand-lg {
   top: 43px;
   border-top-left-radius: 35px;

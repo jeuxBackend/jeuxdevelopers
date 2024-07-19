@@ -394,7 +394,64 @@
                         <p class="heading text-shadow fs-1 text-black fw-600 col-xxl-9">
                             Result-Driven Software Solutions
                         </p>
+                        <p class="letter-spacing-3 fs-5 text-cadet-grey">
+                            We Help Our Clients Bring About
+                            Intelligent Automation And Digital
+                            Transformation By Providing The
+                            Right Tools, Software And Services
+                            To Keep Pace With Emerging
+                            Technologies.
+                        </p>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">Accelerating Their Business Processes</p>
+                        </div>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">Acquiring And Retaining Consumers</p>
+                        </div>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">Boosting Customer Engagement</p>
+                        </div>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">Increasing Their Revenue</p>
+                        </div>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">Maximizing Their Impact</p>
+                        </div>
+                        <div class="features d-flex gap-3">
+                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
+                                class="mt-2" width="20px" height="20px">
+                            <p class="text-cadet-grey fs-5">And Setting Industry Standards.</p>
+                        </div>
+                        <p class="text-cadet-grey fs-5 col-xxl-9 mt-3">
+                            What F I se Can Yna Achieve With A Digital Prndur.t
+                            Tail nr-Madp For V Oil r RI 1 qinpqq?
+                        </p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="latest-projects mt-5">
+            <p class="heading fs-1 text-dark-orange text-shadow fw-bold text-center w-100">Our Latest Projects</p>
+            <div class="ms-lg-5 ms-md-2 ms-1 project-carousal">
+                <div class="project-div p-2">
+                    <img src="{{ asset('assets/images/project1.png') }}" alt="" class="w-100">
+                </div>
+                <div class="project-div p-2">
+                    <img src="{{ asset('assets/images/project2.png') }}" alt="" class="w-100">
+                </div>
+                <div class="project-div p-2">
+                    <img src="{{ asset('assets/images/project3.png') }}" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -578,6 +635,12 @@
 
                 }
             ]
+        });
+    </script>
+    <script>
+        $('.project-carousal').slick({
+            slidesToShow: 1.8,
+            slidesToScroll: 1,
         });
     </script>
     <script>
