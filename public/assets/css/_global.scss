@@ -6,8 +6,15 @@
     font-weight: 700;
     font-style: bold;
   }
-
-
+.w-65{
+    width: 65%;
+}
+.min-height-50{
+    min-height: 50vh !important;
+}
+.fs-80px{
+    font-size: 80px;
+}
 .fs-75 {
     font-size: 75px;
 }
@@ -17,9 +24,21 @@
 .fs-45 {
     font-size: 45px;
 }
-
+.fw-500{
+    font-weight: 500;
+}
+.fw-400{
+    font-weight: 400;
+}
 .fw-600 {
     font-weight: 600;
+}
+
+.line-height-90{
+    line-height: 90px;
+}
+.line-height-42{
+    line-height: 42px;
 }
 .radius-20 {
     border-radius: 20px;
@@ -107,4 +126,24 @@
 .talk-arrow{
     margin-top: 19px;
     margin-left: 12px;
+}
+.book-service-btn{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+}
+.text-shadow{
+    text-shadow: 2px 2px #cfcfcf;
+}
+.letter-spacing-5{
+    letter-spacing: 5px;
+}
+.letter-spacing-3{
+    letter-spacing: 3px;
+}
+.border-dotted{
+    border: 2px dotted #98a5b9;
 }

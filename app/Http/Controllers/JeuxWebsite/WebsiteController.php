@@ -12,4 +12,9 @@ class WebsiteController extends Controller
         $subpage = 'homePageAll';
         return view('pages.home-page', compact('page', 'subpage'));
     }
+    public function customSoftwarePage(){
+        $page = 'services';
+        $subpage = 'customSoftwarePage';
+        return view('pages.custom-software-page', compact('page', 'subpage'));
+    }
 }

@@ -4,7 +4,7 @@
 }
 
 .bg-light-orange {
-  background-color: #ff6000;
+  background-color: #ff6000 !important;
 }
 
 .bg-offwhite {
@@ -27,6 +27,10 @@
   background-color: #ffc600;
 }
 
+.bg-light-grey {
+  background-color: #f0f0f0;
+}
+
 .text-blue {
   color: #00274d;
 }
@@ -36,6 +40,18 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: bold;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.min-height-50 {
+  min-height: 50vh !important;
+}
+
+.fs-80px {
+  font-size: 80px;
 }
 
 .fs-75 {
@@ -50,8 +66,24 @@
   font-size: 45px;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
 .fw-600 {
   font-weight: 600;
+}
+
+.line-height-90 {
+  line-height: 90px;
+}
+
+.line-height-42 {
+  line-height: 42px;
 }
 
 .radius-20 {
@@ -144,6 +176,31 @@
 .talk-arrow {
   margin-top: 19px;
   margin-left: 12px;
+}
+
+.book-service-btn {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 5px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px #cfcfcf;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+.border-dotted {
+  border: 2px dotted #98a5b9;
 }
 
 body {
@@ -492,6 +549,62 @@ footer .social-buttons span:hover {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #000;
+}
+
+.custom-software-banner {
+  top: 20%;
+}
+
+.cards {
+  margin-top: -200px;
+}
+.cards .card {
+  width: 350px !important;
+  height: 320px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 30px;
+  margin: 20px;
+}
+.cards .card-1 {
+  transform: rotate(8deg);
+}
+.cards .card-2 {
+  transform: rotate(-8deg);
+}
+.cards .card-3 {
+  transform: rotate(8deg);
+}
+.cards .card-4 {
+  transform: rotate(-8deg);
+}
+.cards .card-5 {
+  transform: rotate(8deg);
+}
+.cards .card-6 {
+  transform: rotate(-8deg);
+}
+.cards .card-7 {
+  transform: rotate(8deg);
+}
+.cards .card-8 {
+  transform: rotate(-8deg);
+}
+
+.project-number-cards {
+  background-color: #f0f0f0;
+  border: 2px dotted #98a5b9;
+}
+
+.project-number-cards:hover {
+  background-color: #ff6000;
+  border: none;
+  color: white !important;
+  cursor: pointer;
+}
+.project-number-cards:hover .text {
+  color: white !important;
 }
 
 .navbar-expand-lg {

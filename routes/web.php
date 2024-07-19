@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [WebsiteController::class, 'homePage'])->name('pages.homePage');
+Route::get('customSoftwarePage', [WebsiteController::class, 'customSoftwarePage'])->name('pages.customSoftwarePage');

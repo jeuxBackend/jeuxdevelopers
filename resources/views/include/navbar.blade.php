@@ -27,7 +27,7 @@
                         aria-current="page" href="#">HOME</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#services">SERVICES</a>
+                    <a class="nav-link active text-rock-black @if ($page == 'services') text-dark-orange fs-6 @endif fw-bold" aria-current="page" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#portfolio">PORTFOLIO</a>
