@@ -70,6 +70,10 @@
   border-radius: 50px;
 }
 
+.opacity-7 {
+  opacity: 0.7 !important;
+}
+
 .z-index-1 {
   z-index: 1 !important;
 }
@@ -460,8 +464,8 @@ footer .social-buttons {
   text-decoration: none;
 }
 footer .social-buttons span {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   background: #fff;
   border-radius: 50%;
   display: flex;
@@ -472,6 +476,10 @@ footer .social-buttons span {
 footer .social-buttons span:hover {
   scale: 1.2;
   transition: all 0.2s;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /* width */

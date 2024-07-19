@@ -313,8 +313,8 @@ footer {
     .social-buttons {
         text-decoration: none;
         span {
-            width: 50px;
-            height: 50px;
+            width: 35px;
+            height: 35px;
             background: #fff;
             border-radius: 50%;
             display: flex;
@@ -328,6 +328,10 @@ footer {
             }
         }
     }
+}
+
+.text-justify{
+    text-align: justify;
 }
 
 /* width */

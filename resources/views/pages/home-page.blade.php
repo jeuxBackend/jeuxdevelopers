@@ -1,7 +1,7 @@
 @include('include.head')
 <link rel="stylesheet" href="{{ asset('assets/libraries/css/slick.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/libraries/css/slick-theme.css') }}">
-
+<link rel="shortcut icon" href="{{asset('assets/images/logo/fav-icon.png')}}" type="image/x-icon">
 <title>Jeux Developers</title>
 </head>
 
@@ -122,13 +122,14 @@
                         class="img-fluid">
                 </div>
                 <p class="text-center fs-5 text-cadet-grey mx-lg-0 mx-md-0 mx-2">
-                    Call Us A Product Partner, A Product Studio, Or A Full-Stack App Development <br>
-                    Agency. What We Do Stays The Same, And That's Product Services.
+                    Delivering Expert Mobile, Web, and Custom Software Solutions to Drive Your <br> Business Forward
+                    with
+                    Innovation and Excellence
                 </p>
             </div>
             <div class="row mx-lg-5 mx-md-3 mx-2 my-lg-5 my-md-5 my-2">
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Custom Software Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -147,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Mobile App Development Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -167,7 +168,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Web Development Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -187,7 +188,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Hybrid App Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -207,7 +208,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">UI/UX Design Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -227,7 +228,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">E-commerce Solutions Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -267,7 +268,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Maintenance & Support Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -287,7 +288,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="px-4 bg-white services-card border py-5 radius-20 press">
+                    <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
                         <h4 class="mb-0 fw-bold fs-4">Consulting & Strategy Development
                         </h4>
                         <p class="fw-400 my-2">
@@ -316,11 +317,11 @@
                     <img src="{{ asset('assets/images/portfolio-img.png') }}" alt="" width="300px"
                         class="img-fluid">
                 </div>
-                <p class="text-center fs-5 text-cadet-grey mt-4">
-                    Jeux Developers Is Not Just A Service Provider: We Are An Invaluable<br>
-                    Extension Of Your Marketing Team, Bringing A Powerful Combination Of<br>
-                    Strategic Thinking, Expertise, And Flawless Execution To The Areas Where<br>
-                    You Need It The Most.
+                <p class="text-center fs-5 text-cadet-grey mt-4 text-center">
+                    At Jeux Developers, we bring innovative ideas to life through our expertise <br> in mobile, web, and
+                    custom software development. Explore our portfolio to see<br> how we have transformed businesses
+                    with
+                    our cutting-edge solutions<br> and exceptional service.
                 </p>
             </div>
             <div class="py-5 px-0 mt-5 portfolio-slider multiple-items3">
@@ -463,7 +464,8 @@
             </div>
         </div>
         <div class="">
-            <div class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center">
+            <div
+                class="estate-pie-box mx-md-5 mx-1 py-lg-0 py-4 ps-1 my-5 radius-20 d-lg-flex align-items-center shadow-lg">
                 <div class="estate-pie-left-side col-lg-5">
                     <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                         <div class="esate-pie-logo">
@@ -471,19 +473,19 @@
                                 width="160px">
                         </div>
                         <p class="heading fs-45 fw-bold text-blue"> Your Management And Listing Platform.</p>
-                        <p class="text fs-4 text-blue">
+                        <p class="text fs-4 text-blue text-justify opacity-7">
                             Welcome to Estatepie website, for property sale, purchase, and lease. Available on Web,
                             Estatepie simplifies property management by enabling users to efficiently manage tenants and
                             handle real estate transactions. Whether you're a landlord seeking to streamline your
                             management tasks or a tenant in search of a new home, Estatepie provides a seamless and
-                            convenient experience for all your real estate needs.
+                            convenient experience for all your real estate needs.
                         </p>
-                        <div class="button">
+                        {{-- <div class="button">
                             <a href="#!"
-                                class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none">
+                                class="btn fs-4 px-5 py-lg-3 text-dark radius-50 fw-600 bg-yellow shadow-none mt-3">
                                 Learn More
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-7 px-0 text-end mt-lg-0 mt-lg-2 mt-3">
@@ -492,7 +494,8 @@
                 </div>
             </div>
 
-            <div class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+            <div
+                class="carchive-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center shadow-lg">
                 <div class="left-corner">
                     <img src="{{ asset('assets/images/left-corner.png') }}"
                         class="position-absolute top-0 end-0 d-lg-block d-md-block d-none" alt=""
@@ -510,18 +513,18 @@
                             <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
                         </div>
                         <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
-                        <p class="text fs-4 text-white m-0">
+                        <p class="text fs-4 text-white m-0 text-justify opacity-7">
                             Welcome to Carchive, your comprehensive mobile solution for managing cars, drivers' logs,
                             and car maintenance. Available on both Android and iOS platforms, Carchive also provides
                             garage owners with detailed maintenance records. Whether you’re a car owner looking to keep
                             track of your vehicle’s maintenance or a garage owner managing service records, Carchive
                             offers a seamless and efficient way to handle all your automotive needs.
                         </p>
-                        <div class="button">
+                        {{-- <div class="button">
                             <a href="#!"
-                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
+                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more mt-3">Learn
                                 More</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
@@ -530,7 +533,8 @@
                 </div>
             </div>
 
-            <div class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+            <div
+                class="estate-pie-app-box mx-md-5 mx-1 py-lg-0 py-3 my-5 radius-20 d-lg-flex align-items-center shadow-lg">
                 <div class="estate-pie-app-left-side col-lg-5">
                     <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
                         <div class="esate-pie-app-logo">
@@ -538,17 +542,17 @@
                                 width="180px">
                         </div>
                         <p class="heading fs-45 fw-bold text-white"> Your Management And Listing Platform.</p>
-                        <p class="text fs-4 text-white">
+                        <p class="text fs-4 text-white text-justify opacity-7">
                             Estatepie is a versatile app designed for property sale, purchase, and lease, available on
                             both Android and iOS platforms. It empowers users to manage tenants efficiently, making
                             property management seamless and convenient. Whether you're a landlord or a tenant,
                             Estatepie simplifies the entire real estate process.
                         </p>
-                        <div class="button">
+                        {{-- <div class="button">
                             <a href="#!"
-                                class="btn fs-4 px-5 py-3 text-dark radius-50 fw-600 bg-yellow shadow-none">Learn
+                                class="btn fs-4 px-5 py-3 text-dark radius-50 fw-600 bg-yellow shadow-none mt-3">Learn
                                 More</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
@@ -557,7 +561,7 @@
                 </div>
             </div>
 
-            <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center">
+            <div class="carchive-web-box mx-md-5 mx-1 py-0 py-3 my-5 radius-20 d-lg-flex align-items-center shadow-lg">
                 <div class="right-corner">
                     <img src="{{ asset('assets/images/right-corner.png') }}"
                         class="position-absolute bottom-0 start-0" alt="" width="235px">
@@ -570,14 +574,20 @@
                             <p class="fs-1 fw-bold mb-0 text-white">CARCHIEVE</p>
                         </div>
                         <p class="heading fs-75 fw-bold text-white mb-0"> CARCHIVE</p>
-                        <p class="text fs-4 text-white m-0">
-                            Welcome to Carchive, your comprehensive web solution for managing cars, drivers' logs, and car maintenance. Available on web, Carchive also provides garage owners with detailed maintenance records. Our web portal offers companies and individuals an efficient way to manage their fleets and personal vehicles. Whether you’re a car owner tracking your vehicle’s maintenance, a garage owner managing service records, or a company overseeing a fleet, Carchive offers a seamless and efficient platform to handle all your automotive needs.
+                        <p class="text fs-4 text-white m-0 text-justify opacity-7">
+                            Welcome to Carchive, your comprehensive web solution for managing cars, drivers' logs, and
+                            car maintenance. Available on web, Carchive also provides garage owners with detailed
+                            maintenance records. Our web portal offers companies and individuals an efficient way to
+                            manage their fleets and personal vehicles. Whether you’re a car owner tracking your
+                            vehicle’s maintenance, a garage owner managing service records, or a company overseeing a
+                            fleet, Carchive offers a seamless and efficient platform to handle all your
+                            automotive needs.
                         </p>
-                        <div class="button">
+                        {{-- <div class="button">
                             <a href="#!"
-                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more">Learn
+                                class="btn fs-4 px-5 py-3 mt-2 text-dark radius-50 fw-600 bg-white shadow-none learn-more mt-3">Learn
                                 More</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-7 text-lg-end text-center mt-lg-0 mt-2">
@@ -586,8 +596,8 @@
                 </div>
             </div>
 
-            <div class="about-jeux-deevelopers my-5 py-5 mt-5" id="aboutUs">
-                <div class="jeux-developers-heading">
+            <div class="about-jeux-deevelopers my-5 py-5" id="aboutUs">
+                <div class="jeux-developers-heading mt-5">
                     <div class="d-flex flex-column align-items-center position-relative mx-lg-0 mx-3">
                         <img src="{{ asset('assets/images/about-jeux-text.png') }}" alt="" width="700px"
                             class="img-fluid position-absolute jeux-text">
@@ -595,63 +605,62 @@
                             class="img-fluid">
                     </div>
                     <p class="text-center fs-5 text-cadet-grey mt-3">
-                        Jeux Developers Is An Enterprise Software Development Company Helping Startups And<br>
-                        Organizations Build And Implement Digital Transformation Solutions Tailored To Their<br>
-                        Demand And Needs.
+                        Empowering Businesses with Cutting-Edge Digital Solutions. From Mobile and Web Development<br>
+                        to Custom Software.
+                        Innovation, Quality, and Client <br>Satisfaction at Our Core.
                     </p>
                 </div>
-                <div class="project-detail p-4 container">
-                    <p class="text fs-1 text-center text-dark fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
+                <div class="project-detail p-2 container mt-2">
+                    {{-- <p class="text fs-1 text-center text-dark fw-bold py-5 mx-lg-0 mx-md-0 mx-2 mb-lg-auto mb-0">
                         In Pursuit Of Scaling The Digital Ecosystem<br>
                         Through Top-Tier Product Teams
-                    </p>
+                    </p> --}}
                     <div class="mx-0 row gap-3">
-                        <div class="col-lg col-md-6 col-12 mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card shadow-sm">
                             <span class="font-railway text-dark-orange">
-                                100+
+                                500+
                             </span>
-                            <p class="text-cadet-grey fs-3 text-center">Successfully Completed Projects</p>
+                            <p class="text-cadet-grey fs-3 text-center">Successful Projects</p>
                         </div>
-                        <div class="col-lg col-md-6 col-12 mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card shadow-sm">
                             <span class="font-railway text-dark-orange">
-                                300+
+                                25+
                             </span>
-                            <p class="text-cadet-grey fs-3 text-center mt-lg-2">In-House Engineers</p>
+                            <p class="text-cadet-grey fs-3 text-center mt-lg-2">Expert Engineers</p>
                         </div>
-                        <div class="col-lg col-md-6 col-12 mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card shadow-sm">
                             <span class="font-railway text-dark-orange">
-                                20+
+                                25+
                             </span>
                             <p class="text-cadet-grey fs-3 text-center">Industries Served</p>
                         </div>
-                        <div class="col-lg col-md-6 col-12 mt-3 card">
+                        <div class="col-lg col-md-6 col-12 mt-3 card shadow-sm">
                             <span class="font-railway text-dark-orange">
-                                65+
+                                98%
                             </span>
-                            <p class="text-cadet-grey fs-3 text-center mb-0">Clutch Reviews</p>
+                            <p class="text-cadet-grey fs-3 text-center mb-0">Satisfaction Rate</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row mx-0 px-4">
-                <div class="story-box bg-white py-3 my-lg-5 my-2 mb-2 radius-20 d-lg-flex align-items-center">
+                <div
+                    class="story-box bg-white py-3 my-lg-5 my-2 mb-2 radius-20 d-lg-flex align-items-center shadow-lg">
                     <div class="carchive-app-left-side col-lg-7">
                         <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                            <p class="heading fs-45 fw-bold text-dark-orange mb-0">Our Story</p>
-                            <p class="text fs-4 text-cadet-grey m-0">
-                                Jeux Developers Came Into Existence After Two
-                                Tech Enthusiasts From Different Backgrounds
-                                Joined Forces To Create Something Bound To
-                                Become A Difference-Maker In The Digital
-                                World.
-                                <br>
-                                The Company Started In 2018 As A Mobile App
-                                Development Company But Has Since Grown Into
-                                A Full-Stack Digital Transformation Organization
-                                Offering Enterprise Software Development And
-                                Technical Consultancy Services For Businesses
-                                Worldwide.
+                            <p class="heading fs-45 fw-bold text-dark-orange our-story-heading">Our Story</p>
+                            <p class="fs-4 fw-400 text-dark-orange">Founded in 2018</p>
+                            <p class="text fs-4 text-cadet-grey m-0 text-justify">
+                                 Jeux Developers began as a small team with a big vision to bring
+                                innovative ideas to life through exceptional mobile, web, and custom software solutions.
+                                Over the years, our dedication to quality and client satisfaction has fueled our growth,
+                                expanding our team to 20 highly skilled professionals. Under the leadership of our CEO,
+                                Farooq Arshad, we have tackled diverse projects across multiple platforms, consistently
+                                delivering cutting-edge solutions that meet the unique needs of our clients. At Jeux
+                                Developers, we pride ourselves on our creativity, reliability, and unwavering commitment
+                                to excellence, always striving to exceed expectations and drive success for the
+                                businesses we serve.
                             </p>
                         </div>
                     </div>
@@ -668,18 +677,18 @@
                 <div class="px-1 d-lg-flex align-items-center">
                     <div class="carchive-app-left-side col-lg-7">
                         <div class="col-lg-10 ps-lg-5 ms-2">
-                            <p class="heading fs-45 fw-bold text-white mb-0"> Our Impact</p>
-                            <p class="fs-4 text-white">Impact 2023 & Beyond!</p>
-                            <p class="text fs-4 text-white m-0">
-                                Jeux Developers Vows To Continue Serving
-                                The Community With Social Welfare And
-                                CSR Efforts For Communal Betterment And
-                                Well-Being. Our Vision To Impact 20
-                                Million Lives Through Better Employment
-                                And Education Opportunities And
-                                Empowerment Marches Toward 2023, And
-                                We Will Aggressively Pursue The Future
-                                Beyond.
+                            <p class="heading fs-45 fw-bold text-white"> Our Impact</p>
+                            <p class="fs-4 text-white">Impact 2024 & Beyond!</p>
+                            <p class="text fs-4 text-white m-0 opacity-7 text-justify">
+                                Since our inception in 2018, Jeux Developers has made a significant impact in the tech
+                                industry by delivering innovative and high-quality solutions across the globe. Our
+                                dedication to excellence and client-centric approach have enabled us to transform
+                                businesses, enhance user experiences, and drive growth. We have successfully completed
+                                countless projects, each tailored to meet the unique needs of our clients, from startups
+                                to large enterprises. Our work has not only solved complex challenges but also empowered
+                                businesses to thrive in an increasingly digital world. With a growing team of talented
+                                professionals, we continue to set new standards in mobile, web, and custom software
+                                development, making a lasting positive impact on the industries we serve.
                             </p>
                         </div>
                     </div>
@@ -698,36 +707,45 @@
                     <img src="{{ asset('assets/images/client-img.png') }}" alt="" width="300px"
                         class="img-fluid mt-4">
                 </div>
-                <p class="text-center fs-5 text-cadet-grey mt-3">
-                    We Contribute TO These Partnership Programs, Supported By Global<br>
-                    Technology Experts. Partnering With Industry Leaders, We Offer Quality<br>
-                    Technology Solutions That Meet Your Business Needs.<br>
+                <p class="text-center fs-5 text-cadet-grey mt-3 w-100 d-flex justify-content-center">
+                    <span class="col-lg-6 col-md-8 col-11">
+                        Our Clients Span Various Industries, Showcasing Our Versatility and Expertise. From Startups to
+                        Established Enterprises, We Deliver Tailored Solutions That Drive Success and Innovation.
+                    </span>
                 </p>
             </div>
             <div class="project-iamges row mx-0 py-lg-5 py-md-5 py-0">
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/trekend.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/trekend.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/security.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/security.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/seekooh.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/seekooh.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/mr-fitx.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/mr-fitx.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/p2p.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/p2p.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/divinity.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/divinity.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/sit-stand.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/sit-stand.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 <div class="col-xl-3 col-lg-4 p-2">
-                    <img src="{{ asset('assets/images/projects/carchive.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/projects/carchive.png') }}" alt=""
+                        class="w-100 shadow radius-20">
                 </div>
                 {{-- <div class="col-xl-3 col-lg-4 p-2">
                     <img src="{{ asset('assets/images/projects/yuka.png') }}" alt="" class="w-100">
