@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [WebsiteController::class, 'homePage'])->name('pages.homePage');
 Route::get('customSoftwarePage', [WebsiteController::class, 'customSoftwarePage'])->name('pages.customSoftwarePage');
+Route::get('androidLeadingPage', [WebsiteController::class, 'androidLeadingPage'])->name('pages.androidLeadingPage');

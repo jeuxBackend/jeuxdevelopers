@@ -1,7 +1,7 @@
 @include('include.head')
 <link rel="stylesheet" href="{{ asset('assets/libraries/css/slick.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/libraries/css/slick-theme.css') }}">
-<link rel="shortcut icon" href="{{asset('assets/images/logo/fav-icon.png')}}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('assets/images/logo/fav-icon.png') }}" type="image/x-icon">
 <title>Jeux Developers</title>
 </head>
 
@@ -136,8 +136,8 @@
                             Our expert developers create tailored software solutions that meet your unique business
                             needs, ensuring seamless functionality and high performance.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
-                            <a href="#!"
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
+                            <a href="{{route('pages.customSoftwarePage')}}"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
@@ -149,14 +149,14 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
-                        <h4 class="mb-0 fw-bold fs-4">Mobile App Development Development
+                        <h4 class="mb-0 fw-bold fs-4">Mobile App Development
                         </h4>
                         <p class="fw-400 my-2">
                             From concept to launch, we build robust and user-friendly mobile apps for both Android and
                             iOS platforms, designed to engage and delight your users.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
-                            <a href="#!"
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
+                            <a href="{{route('pages.androidLeadingPage')}}"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
                             </a>
@@ -169,13 +169,14 @@
 
                 <div class="col-lg-4 col-md-6 mt-3">
                     <div class="px-4 bg-white services-card shadow-sm h-100 border py-5 radius-20 press">
-                        <h4 class="mb-0 fw-bold fs-4">Web Development Development
+                        <h4 class="mb-0 fw-bold fs-4">Web Development
                         </h4>
                         <p class="fw-400 my-2">
                             Enhance your online presence with our comprehensive web development services. We build
                             responsive, fast, and secure websites that drive results.
+                            <span class="invisible ">Hidden Text for maintaining ui</span>
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -195,7 +196,7 @@
                             Leverage the power of cross-platform development with our hybrid app solutions. We deliver
                             high-quality apps that perform seamlessly on multiple devices.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -214,8 +215,10 @@
                         <p class="fw-400 my-2">
                             Our design team creates intuitive and visually stunning interfaces, ensuring a great user
                             experience that keeps your customers coming back.
+                            <span class="invisible ">Hidden Text for maintaining ui</span>
+
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -235,7 +238,7 @@
                             Boost your online sales with our custom e-commerce solutions. We develop scalable and
                             secure platforms that provide a smooth shopping experience.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -255,7 +258,7 @@
                             Seamlessly integrate cloud solutions into your business infrastructure for increased
                             flexibility, scalability, and efficiency.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -275,7 +278,7 @@
                             Ensure the longevity and performance of your applications with our comprehensive
                             maintenance and support services.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -295,7 +298,7 @@
                             Our expert consultants provide strategic guidance to help you navigate the digital
                             landscape and achieve your business goals.
                         </p>
-                        <div class="w-100 d-flex justify-content-end position-relative">
+                        <div class="w-100 d-flex justify-content-end position-relative read-more-box">
                             <a href="#!"
                                 class="btn read-more-btn shadow-none text-start py-3 radius-10 mt-3 text-black text-decoration-none services__link border fw-bold col-lg-6 col-md-8 col-10 px-3 bg-white">
                                 <span class="">Read More</span>
@@ -646,22 +649,25 @@
 
             <div class="row mx-0 px-4">
                 <div
-                    class="story-box bg-white py-3 my-lg-5 my-2 mb-2 radius-20 d-lg-flex align-items-center shadow-lg">
+                    class="story-box bg-white py-3 my-lg-5 my-2 mb-2 radius-20 d-lg-flex align-items-center shadow-lg bg-light-orange">
                     <div class="carchive-app-left-side col-lg-7">
                         <div class="col-lg-10 ms-lg-5 ms-md-5 ms-2">
-                            <p class="heading fs-45 fw-bold text-dark-orange our-story-heading">Our Story</p>
-                            <p class="fs-4 fw-400 text-dark-orange">Founded in 2018</p>
-                            <p class="text fs-4 text-cadet-grey m-0 text-justify">
-                                 Jeux Developers began as a small team with a big vision to bring
-                                innovative ideas to life through exceptional mobile, web, and custom software solutions.
-                                Over the years, our dedication to quality and client satisfaction has fueled our growth,
-                                expanding our team to 20 highly skilled professionals. Under the leadership of our CEO,
-                                Farooq Arshad, we have tackled diverse projects across multiple platforms, consistently
-                                delivering cutting-edge solutions that meet the unique needs of our clients. At Jeux
-                                Developers, we pride ourselves on our creativity, reliability, and unwavering commitment
-                                to excellence, always striving to exceed expectations and drive success for the
-                                businesses we serve.
-                            </p>
+                            <p class="heading fs-45 fw-bold text-white our-story-heading">Our Story</p>
+                            <span class="text fs-4 text-white m-0 text-justify">
+                                <p>
+                                    Jeux Developers Came Into Existence After Two Tech
+                                    Enthusiasts From Different Backgrounds Joined Forces
+                                    To Create Something Bound To Become A Difference-
+                                    Maker In The Digital World.
+                                </p>
+                                <p>
+                                    The Company Started In 2018 As A Mobile App
+                                    Development Company But Has Since Grown Into A
+                                    Full-Stack Digital Transformation Organization Offering
+                                    Enterprise Software Development And Technical
+                                    Consultancy Services For Businesses Worldwide.
+                                </p>
+                            </span>
                         </div>
                     </div>
                     <div class="col-lg-5 text-lg-end text-center mt-lg-0 mt-2 p-lg-5 p-2">
@@ -672,7 +678,9 @@
             </div>
         </div>
 
-        <div class="row mx-0 px-4">
+        {{-- impact code commensted start --}}
+
+        {{-- <div class="row mx-0 px-4">
             <div class="impact-box py-3 my-lg-5 my-2 shadow-lg radius-20 bg-light-orange">
                 <div class="px-1 d-lg-flex align-items-center">
                     <div class="carchive-app-left-side col-lg-7">
@@ -698,7 +706,138 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+
+        {{-- impact code commensted start --}}
+
+        {{-- Clients feedback code start --}}
+        <div class="feedback mx-0 overflow-hidden">
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-12 feedback-text">
+                    <p class="fs-55 line-height-90 text-dark-orange fw-bolder text-xl-start text-center w-100 px-4">
+                        What Our Clients Say About Us!
+                    </p>
+                </div>
+                <div class="col-xl-9 col-12">
+                    <div class="clients-slider">
+                        <div class="px-2 outer-feedback-box">
+                            <div class="position-relative bg-soft-peach radius-30 feedback-box mx-3 item-first">
+                                <img src="{{ asset('assets/images/clients/biel.png') }}" class="client-image"
+                                    alt="">
+                                <div class="client-name-div ">
+                                    <div class="bg-grey client-name-div-bg position-absolute"></div>
+                                    <span class="vertical-text margin-top-142">
+                                        <small class="mb-0 fw-500 fs-6 text-white small-text">CEO Blue
+                                            Dreams</small><br>
+                                        <small class="fs-3 fw-600 text-white mb-0">Biel Cortadellas</small>
+                                    </span>
+                                </div>
+                                <div
+                                    class="position-absolute pe-4 bg-grey py-2 d-flex gap-2 align-items-center client-info d-none">
+                                    <img src="{{ asset('assets/images/logo/blueDream.png') }}" width="65px"
+                                        class="mt-2" alt="">
+                                    <span class="line-height-25">
+                                        <p class="fs-3 fw-600 text-white mb-0">Biel Cortadellas</p>
+                                        <p class="mb-0 fw-500 text-white">CEO Blue Dreams</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-2 outer-feedback-box">
+                            <div class="position-relative bg-soft-peach radius-30 feedback-box mx-3 item-sec">
+                                <img src="{{ asset('assets/images/clients/gillian.png') }}" class="client-image"
+                                    alt="">
+                                <div class="client-name-div ">
+                                    <div class="bg-grey client-name-div-bg position-absolute"></div>
+                                    <span class="vertical-text">
+                                        <small class="mb-0 fw-500 fs-6 text-white small-text">Unstoppable
+                                            App</small><br>
+                                        <small class="fs-3 fw-600 text-white mb-0">Gillian Hourihan</small>
+                                    </span>
+                                </div>
+                                <div
+                                    class="position-absolute pe-4 bg-grey py-2 d-flex gap-2 align-items-center client-info d-none">
+                                    <img src="{{ asset('assets/images/logo/unstoppable.png') }}" width="65px"
+                                        class="mt-2" alt="">
+                                    <span class="line-height-25">
+                                        <p class="fs-3 fw-600 text-white mb-0">Gillian Hourihan</p>
+                                        <p class="mb-0 fw-500 text-white">Unstoppable App</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-2 outer-feedback-box">
+                            <div class="position-relative bg-soft-peach radius-30 feedback-box mx-3 item-third">
+                                <img src="{{ asset('assets/images/clients/adhour.png') }}" class="client-image"
+                                    alt="">
+                                <div class="client-name-div ">
+                                    <div class="bg-grey client-name-div-bg position-absolute"></div>
+                                    <span class="vertical-text margin-top-128">
+                                        <small class="mb-0 fw-500 fs-6 text-white small-text">CEO CARCHIEVE</small><br>
+                                        <small class="fs-3 fw-600 text-white mb-0">Jawad Adhour</small>
+                                    </span>
+                                </div>
+                                <div
+                                    class="position-absolute pe-4 bg-grey py-2 d-flex gap-2 align-items-center client-info d-none">
+                                    <img src="{{ asset('assets/images/logo/carchive.png') }}" width="65px"
+                                        class="mt-2" alt="">
+                                    <span class="line-height-25">
+                                        <p class="fs-3 fw-600 text-white mb-0">Jawad Adhour</p>
+                                        <p class="mb-0 fw-500 text-white">CEO CARCHIEVE</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-2 outer-feedback-box">
+                            <div class="position-relative bg-soft-peach radius-30 feedback-box mx-3 item-fourth">
+                                <img src="{{ asset('assets/images/clients/adedipe.png') }}" class="client-image"
+                                    alt="">
+                                <div class="client-name-div ">
+                                    <div class="bg-grey client-name-div-bg position-absolute"></div>
+                                    <span class="vertical-text margin-top-171">
+                                        <small class="mb-0 fw-500 fs-6 text-white small-text">CEO ESTATEPIE</small><br>
+                                        <small class="fs-3 fw-600 text-white mb-0">Christian Adedipe</small>
+                                    </span>
+                                </div>
+                                <div
+                                    class="position-absolute pe-4 bg-grey py-2 d-flex gap-2 align-items-center client-info d-none">
+                                    <img src="{{ asset('assets/images/logo/estate-pie.png') }}" width="65px"
+                                        class="mt-2" alt="">
+                                    <span class="line-height-25">
+                                        <p class="fs-3 fw-600 text-white mb-0">Christian Adedipe</p>
+                                        <p class="mb-0 fw-500 text-white">CEO ESTATEPIE</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-2 outer-feedback-box">
+                            <div class="position-relative bg-soft-peach radius-30 feedback-box mx-3 item-fifth">
+                                <img src="{{ asset('assets/images/clients/paolettiv.png') }}" class="client-image"
+                                    alt="">
+                                <div class="client-name-div">
+                                    <div class="bg-grey client-name-div-bg position-absolute"></div>
+                                    <span class="vertical-text margin-top-105">
+                                        <small class="mb-0 fw-500 fs-6 text-white small-text">CEO Nightify</small><br>
+                                        <small class="fs-3 fw-600 text-white mb-0">Ing Paolettiv</small>
+                                    </span>
+                                </div>
+                                <div
+                                    class="position-absolute pe-4 bg-grey py-2 d-flex gap-2 align-items-center client-info d-none">
+                                    <img src="{{ asset('assets/images/logo/blueDream.png') }}" width="65px"
+                                        class="mt-2" alt="">
+                                    <span class="line-height-25">
+                                        <p class="fs-3 fw-600 text-white mb-0">Ing Paolettiv</p>
+                                        <p class="mb-0 fw-500 text-white">CEO Nightify</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        {{-- Clients feedback code End --}}
+
         <div class="our-clients mx-lg-5 mt-lg-5 mt-md-5 mt-2">
             <div class="jeux-developers-heading">
                 <div class="d-flex flex-column align-items-center position-relative">
@@ -772,6 +911,15 @@
             });
         });
     </script>
+    {{-- <script>
+        $(function() {
+            $('.outer-feedback-box').mouseenter(function() {
+                $(this).parent().find('.client-name').addClass("display-none");
+            }).mouseleave(function() {
+                $(this).parent().find('.client-name').removeClass("display-none");
+            });
+        });
+    </script> --}}
     <script>
         $('.multiple-items').slick({
             pauseOnHover: true,
@@ -935,6 +1083,163 @@
             ]
         });
     </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.clients-slider').slick({
+                pauseOnHover: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 0,
+                speed: 5000,
+                focusOnSelect: true,
+                variableWidth: true,
+                cssEase: 'linear',
+                responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 764,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 564,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+
+            function updateActiveClasses(currentSlideIndex) {
+               $('.feedback-box').removeClass('active');
+                $('.client-info').addClass('d-none');
+                $('.client-name-div').removeClass('d-none');
+
+                var $currentSlide = $('.slick-slide[data-slick-index="' + currentSlideIndex + '"]');
+                // $currentSlide.find('.feedback-box').addClass('active');
+                // $currentSlide.find('.client-info').removeClass('d-none');
+                $currentSlide.find('.client-name-div').removeClass('d-none');
+            }
+
+            setTimeout(function() {
+                var initialSlideIndex = $('.clients-slider').slick('slickCurrentSlide');
+                updateActiveClasses(initialSlideIndex);
+            }, 100);
+
+            $('.clients-slider').on('afterChange', function(event, slick, currentSlide) {
+                updateActiveClasses(currentSlide);
+            });
+
+            function isFirstSlide($element) {
+                return $element.closest('.slick-slide').data('slick-index') === $('.clients-slider').slick(
+                    'slickCurrentSlide');
+            }
+
+            $(document).on('mouseenter', '.feedback-box', function() {
+                // if (!isFirstSlide($(this))) {
+                    $(this).find('.client-name-div').addClass('d-none');
+                    $(this).find('.client-info').removeClass('d-none');
+
+                // }
+            }).on('mouseleave', '.feedback-box', function() {
+                // if (!isFirstSlide($(this))) {
+                    $(this).find('.client-name-div').removeClass('d-none');
+                    $(this).find('.client-info').addClass('d-none');
+
+
+                // }
+            });
+
+        });
+    </script>
+
+    {{-- <script>
+        $(document).ready(function() {
+            $('.clients-slider').slick({
+                pauseOnHover: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                autoplay: false,
+                focusOnSelect: true,
+                variableWidth: true,
+                cssEase: 'linear',
+                centerMode: true, 
+                centerPadding: '0',
+                responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            centerMode: true,
+                            centerPadding: '0',
+                        }
+                    },
+                    {
+                        breakpoint: 764,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: true,
+                            centerPadding: '0',
+                        }
+                    },
+                    {
+                        breakpoint: 564,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: true,
+                            centerPadding: '0',
+                        }
+                    }
+                ]
+            });
+
+            function updateActiveClasses(currentSlideIndex) {
+                $('.feedback-box').removeClass('active');
+                $('.client-info').addClass('d-none');
+                $('.client-name-div').removeClass('d-none');
+
+                var $currentSlide = $('.slick-slide[data-slick-index="' + currentSlideIndex + '"]');
+                $currentSlide.find('.feedback-box').addClass('active');
+                $currentSlide.find('.client-info').removeClass('d-none');
+                $currentSlide.find('.client-name-div').addClass('d-none');
+            }
+
+            $('.clients-slider').on('afterChange', function(event, slick, currentSlide) {
+                updateActiveClasses(currentSlide);
+            });
+
+            function isFirstSlide($element) {
+                return $element.closest('.slick-slide').data('slick-index') === $('.clients-slider').slick(
+                    'slickCurrentSlide');
+            }
+
+            $(document).on('mouseenter', '.feedback-box', function() {
+                if (!isFirstSlide($(this))) {
+                    // $(this).find('.client-info').removeClass('d-none');
+                }
+            }).on('mouseleave', '.feedback-box', function() {
+                if (!isFirstSlide($(this))) {
+                    $(this).find('.client-info').addClass('d-none');
+                }
+            });
+        });
+    </script> --}}
+
+
     <script>
         const container = document.getElementById("container");
         const boxSize = 38;

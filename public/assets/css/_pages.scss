@@ -4,9 +4,9 @@ body {
 
     width: 100%;
     min-height: 100vh;
-    background-color: #f0f0f0;
-    background-image: linear-gradient(#bbbbbb7e 1px, transparent 0.1em),
-        linear-gradient(90deg, #bbbbbb7e 1px, transparent 0.1em);
+    background-color: #ffffff;
+    background-image: linear-gradient(#bbbbbb1a 1px, transparent 0.1em),
+        linear-gradient(90deg, #bbbbbb1e 1px, transparent 0.1em);
     background-size: 38px 38px;
 }
 
@@ -18,7 +18,8 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100% !important;
     width: 100%;
     .lcd-div,
     .cofee-cup-div,
@@ -118,11 +119,16 @@ a {
     visibility: visible !important;
 }
 .services-card {
-    background-color: #fff !important;
+    // background-color: #fff !important;
+    background-image: url("../images/card-layout.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #696969 !important;
     transition: 500ms all;
 }
 .services-card-hover {
+    background-image: url("../images/card-layout2.png");
     background-color: #ff6000 !important;
     transition: 500ms all;
     color: white !important;
@@ -330,7 +336,7 @@ footer {
     }
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
@@ -353,3 +359,112 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #000;
 }
+
+// Client feedback styling start
+
+.feedback-box {
+    // z-index: 0 !important;
+    max-width: 250px;
+    height: 450px;
+    // transition: max-width 10s ease-out, transform 10s ease-out;
+
+
+    .client-image {
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    // &.active {
+    //     max-width: 100%;
+    //     transition: max-width 1s ease-in, transform 1s ease-in;
+    //     margin-left: 25px !important;
+    // }
+
+    &:hover {
+        max-width: 400px;
+        transition: max-width 1s ease-in, transform 1s ease-in;
+
+    }
+
+    .client-info {
+        bottom: 30px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        img {
+            margin-left: -32px;
+        }
+    }
+   
+}
+
+.client-name-div {
+    margin-top: -100px !important;
+}
+.client-name-div-bg {
+    height: 270px;
+    width: 110px;
+    top:180px !important;
+    // border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 20px;
+}
+.vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-top: -130px;
+    margin-left: 20px;
+}
+.margin-top-142 {
+    margin-top: -122px !important;
+}
+.margin-top-128 {
+    margin-top: -108px !important;
+}
+.margin-top-171 {
+    margin-top: -151px !important;
+}
+.margin-top-105 {
+    margin-top: -85px !important;
+}
+
+@media screen and (max-width:500px) {
+    .feedback-box {
+        // z-index: 0 !important;
+        max-width: 250px;
+        height: 450px;
+        // transition: max-width 10s ease-out, transform 10s ease-out;
+    
+    
+        .client-image {
+            height: 100% !important;
+            object-fit: cover;
+            border-radius: 30px;
+            width: 100%;
+        }
+    
+        // &.active {
+        //     max-width: 100%;
+        //     transition: max-width 1s ease-in, transform 1s ease-in;
+        //     margin-left: 25px !important;
+        // }
+    
+        &:hover {
+            max-width: 300px !important;
+            transition: max-width 1s ease-in, transform 1s ease-in;
+    
+        }
+    
+        .client-info {
+            bottom: 30px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            img {
+                margin-left: -32px;
+            }
+        }
+       
+    }
+}
+// Client feedback styling end

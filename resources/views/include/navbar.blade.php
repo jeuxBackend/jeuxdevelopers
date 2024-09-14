@@ -24,7 +24,7 @@
             <ul class="navbar-nav mx-auto mb-0">
                 <li class="nav-item px-1">
                     <a class="nav-link active text-rock-black @if ($page == 'homePage') text-dark-orange fs-6 @endif fw-bold"
-                        aria-current="page" href="#">HOME</a>
+                        aria-current="page" href="{{route('pages.homePage')}}">HOME</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link active text-rock-black @if ($page == 'services') text-dark-orange fs-6 @endif fw-bold" aria-current="page" href="#services">SERVICES</a>
@@ -34,12 +34,12 @@
                         href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#areas">AREA</a>
+                    <a class="nav-link active text-rock-black fw-bold" aria-current="page" href="#areas">PRICING</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link text-rock-black fw-bold" href="#aboutUs" id="navbarDropdown">
                         {{-- role="button" data-bs-toggle="dropdown" aria-expanded="false" --}}
-                        About Us
+                        ABOUT US
                     </a>
                     {{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -60,7 +60,7 @@
                         alt="">
                     WHATSAPP
                 </a>
-                <a href="#contactUs" class="btn contact-btn px-4 border-0 shadow mt-lg-0 mt-2">CONTACTUS</a>
+                <a href="#contactUs" class="btn contact-btn px-4 border-0 shadow mt-lg-0 mt-2">CONTACT US</a>
             </div>
         </div>
     </div>

@@ -51,5 +51,103 @@
     }
 }
 .project-div{
-    width: 800px !important;
+    max-width: 800px !important;
 }
+
+.android-leading-footer{
+    margin-top:-230px;
+    z-index: 1000 !important;
+}
+.project-meeting-section{
+    position: relative;
+    background-image: url('..//images/android-project-meeting.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+.discover-section{
+    // position: relative;
+    background-image: url('..//images/discover-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    z-index: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .discover-div{
+        top:17%;
+    }
+    .setting-icon{
+        z-index: 1 !important;
+        top: 45%;
+        right:31%;
+    }
+    .msg-icon{
+        z-index: 1 !important;
+        top: 26%;
+        left:31%;
+    }
+}
+.latest-projects{
+    overflow-x: hidden !important;
+}
+
+
+body.hidden-scrollbar {
+    overflow: hidden;
+}
+
+.rocket-image {
+    display: flex;
+    justify-content: center;
+    img{
+    max-width: 100% !important;
+    max-height: 1370px !important;
+}  
+}
+
+
+.left-deployment {
+    position: absolute;
+    top: 22% !important;
+    left: 10%;
+}
+
+.left-coding {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+}
+
+.left-planing {
+    position: absolute;
+    top: 73% !important;
+    left: 10%;
+}
+
+.right-testing {
+    position: absolute;
+
+    top: 35%;
+    right: 10%;
+}
+
+.right-design {
+    position: absolute;
+
+    top: 60%;
+    right: 10%;
+}
+
+.right-analysis {
+    position: absolute;
+
+    top: 87%;
+    right: 10%;
+}
+

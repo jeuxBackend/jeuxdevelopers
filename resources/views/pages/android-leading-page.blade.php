@@ -10,22 +10,22 @@
         <header class="home-banner" id="container">
             @include('include.navbar')
             <div class="custom-software-banner d-lg-flex align-items-center position-absolute z-index-1 mx-4">
-                <div class="col-lg-7">
-                    <p class="fs-70 fs-r-50 text-white fw-bold line-height-90 line-height-r-auto">
-                        Custom Software <span class="text-black"> Development Services For</span> Businesses of All
-                        Sizes
+                <div class="col-lg-7 mb-0">
+                    <p class="fs-80 text-white fw-bold line-height-90">
+                        Leading <span class="text-black"> Android / iOS<br> Apps</span> Development
                     </p>
-                    <p class="fs-1 text-white fw-400 line-height-42">
-                        We Create Custom, High-impact Software Solutions<br>
-                        That Empower Businesses And Enable Them To Lead<br>
-                        With Automation.
+                    <p class="fs-3 text-white fw-400 line-height-42 letter-spacing-3">
+                        Over The Years, We've Developed Several Custom Android
+                        Apps And iOS AppsHelped Client's Globally By Bringing Their
+                        Android App Ideas To Life.
                     </p>
                     <button class="book-service-btn btn fs-5 px-4 py-2 mt-3">
-                        Become a Client
+                        Build Your Android & iOS Apps
                     </button>
                 </div>
                 <div class="col-lg-5 text-end">
-                    <img src="{{ asset('assets/images/carchive-img.png') }}" alt="" class="w-75">
+                    <img src="{{ asset('assets/images/android-app-img.png') }}" alt="" class=""
+                        width="90%">
                 </div>
             </div>
         </header>
@@ -108,144 +108,104 @@
                 </div>
             </div>
         </div>
-
-        {{-- development process code start --}}
-        <div class="development-process-div my-4 mx-5 bg-light-grey-opacity p-5 radius-30">
-            <img src="{{ asset('assets/images/development.png') }}" width="100%" alt="">
-        </div>
-        {{-- development process code end --}}
-
-
-        {{-- sdlc code start --}}
-        <div class="sdlc-box">
-            <div class="maintenance w-100 d-flex justify-content-center flex-column align-items-center">
-                <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                    Maintenance
-                </p>
-                <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                    Providing Ongoing Support And
-                    Updates To Keep The Software Running
-                    Effciently And Adapting To New
-                    Requirements.
+        <div class="service-description mx-lg-5 mx-3">
+            <div class="w-100 d-flex justify-content-center">
+                <p class="heading fs-55 fw-bold text-black text-shadow w-50 text-center">
+                    Build Full-Fledged Customized Application <Forspan class="text-dark-orange"> Android And IOS App.
+                    </Forspan>
                 </p>
             </div>
-            <div class="rocket">
-                <div class="row">
-                    <div class="col-4 position-relative">
-                        <div
-                            class="left-deployment w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Deployment
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
+            <div class="w-100 d-flex justify-content-center">
+                <p class="letter-spacing-3 text-cadet-grey fs-4 w-50 text-center">
+                    J eux Developers Is One The Top Android Development Company
+                    That Offer Its Services In The Pakistan, Bahamas & U A E, Our
+                    Products Have Great Impact In The Targeted Markets &
+                    Generated A Massive Revenue.
+                </p>
+            </div>
+            <div class="row my-3">
+                <div class="p-2 col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="border radius-30 bg-white radius-right-3-important shadow p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <span class="d-flex gap-2 align-items-center col-7">
+                                <img src="{{ asset('assets/images/icons/android-icon.png') }}" alt=""
+                                    width="50px">
+                                <p class="mb-0 text-black fs-5 fw-600">
+                                    Android Smartphone
+                                </p>
+                            </span>
+                            <span class="text-dark-orange fs-4 fw-500 text-end col-5">01</span>
                         </div>
-                        <div class="left-coding w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Coding
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
-                        </div>
-                        <div class="left-planing w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Planning
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="rocket-image col-4 d-flex align-items-center ">
-                        <img src="{{ asset('assets/images/rocket.png') }}" alt="">
-                    </div>
-                    <div class="col-4 position-relative">
-                        <div class="right-testing w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Testing
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
-                        </div>
-                        <div class="right-design w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Design
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
-                        </div>
-                        <div class="right-analysis w-100 d-flex justify-content-center flex-column align-items-center">
-                            <p class="fs-1 mb-0 fw-bold text-dark-orange">
-                                Analysis
-                            </p>
-                            <p class="text-cadet-grey fs-5 w-300px fw-500 text-center">
-                                Providing Ongoing Support And
-                                Updates To Keep The Software Running
-                                Effciently And Adapting To New
-                                Requirements.
-                            </p>
-                        </div>
+                        <p class="text-cadet-grey">
+                            At Jeux Developers. We Develop Your Ideas.
+                            We Go Through Your Requirements Your
+                            Expectations & Set The Project Deliveries &
+                            Ti meli nes
+                        </p>
                     </div>
                 </div>
-
+                <div class="p-2 col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="border radius-30 bg-white radius-left-3-important shadow p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <span class="d-flex gap-2 align-items-center col-7">
+                                <img src="{{ asset('assets/images/icons/android-tv-icon.png') }}" alt=""
+                                    width="50px">
+                                <p class="mb-0 text-black fs-5 fw-600">
+                                    Android <br> TV
+                                </p>
+                            </span>
+                            <span class="text-dark-orange fs-4 fw-500 text-end col-5">02</span>
+                        </div>
+                        <p class="text-cadet-grey">
+                            At Jeux Developers. We Develop Your Ideas.
+                            We Go Through Your Requirements Your
+                            Expectations & Set The Project Deliveries &
+                            Ti meli nes
+                        </p>
+                    </div>
+                </div>
+                <div class="p-2 col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="border radius-30 bg-white radius-right-3-important shadow p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <span class="d-flex gap-2 align-items-center col-7">
+                                <img src="{{ asset('assets/images/icons/android-watch-icon.png') }}" alt=""
+                                    width="50px">
+                                <p class="mb-0 text-black fs-5 fw-600">
+                                    Android Wearable App
+                                </p>
+                            </span>
+                            <span class="text-dark-orange fs-4 fw-500 text-end col-5">03</span>
+                        </div>
+                        <p class="text-cadet-grey">
+                            At Jeux Developers. We Develop Your Ideas.
+                            We Go Through Your Requirements Your
+                            Expectations & Set The Project Deliveries &
+                            Ti meli nes
+                        </p>
+                    </div>
+                </div>
+                <div class="p-2 col-xl-3 col-lg-4 col-md-6 col-12">
+                    <div class="border radius-30 bg-white radius-left-3-important shadow p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <span class="d-flex gap-2 align-items-center col-7">
+                                <img src="{{ asset('assets/images/icons/android-app-icon.png') }}" alt=""
+                                    width="50px">
+                                <p class="mb-0 text-black fs-5 fw-600">
+                                    Android Tablet Apps
+                                </p>
+                            </span>
+                            <span class="text-dark-orange fs-4 fw-500 text-end col-5">04</span>
+                        </div>
+                        <p class="text-cadet-grey">
+                            At Jeux Developers. We Develop Your Ideas.
+                            We Go Through Your Requirements Your
+                            Expectations & Set The Project Deliveries &
+                            Ti meli nes
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        {{-- sdlc code end --}}
-
-
-        {{-- <div class="service-description mx-lg-5 mx-3">
-            <p class="heading fs-1 fw-bold text-dark-orange text-shadow">
-                Service Description
-            </p>
-            <p class="letter-spacing-5 text-cadet-grey fs-4">
-                Custom Software Development Is The Process Of Creating Tailored Software Applications Or<br>
-                Solutions Designed To Meet Specific Business Needs, Requirements, And Objectives.
-            </p>
-            <div class="d-lg-flex align-items-center justify-content-between my-5">
-                <div class="col-lg-6 letter-spacing-3 text-start">
-                    <img src="{{ asset('assets/images/developer-img.png') }}" alt="" class="w-100">
-                </div>
-                <div class="col-lg-6 ms-lg-5">
-                    <p class="fs-5 mb-0 text-black">
-                        Custom Software Development Company
-                    </p>
-                    <p class="fs-1 fw-bold text-dark-orange text-shadow">
-                        That Power The World
-                    </p>
-                    <p class="text-cadet-grey fs-4">
-                        We Have Worked With Leading Organizations And <br>
-                        Institutions Around The Globe To Build Future-Centric<br>
-                        Systems,<br>
-                        With The Skills And Experience Of Our Seasoned<br>
-                        Software Developers And Programmers, We Build<br>
-                        Tailor-Made Software Solutions For Your Business. We<br>
-                        Leave No Stone Unturned When Designing And<br>
-                        Developing Software Systems, Keeping Your<br>
-                        Instructions In Mind.
-                    </p>
-                </div>
-            </div>
-        </div> --}}
         <div class="bg-light-orange py-5 min-height-50">
             <div class="mx-5">
                 <p class="fs-55 text-white fw-600 w-65">
@@ -409,9 +369,79 @@
                 </div>
             </div>
         </div>
-        {{-- testimonial code start --}}
-        <div class="ms-5 testimonial-section mt-5">
-            <p class="fs-1 mb-0 fw-600 text-dark-orange">
+        <div class="work-detail mt-5 w-100 d-flex justify-content-center">
+            <div class="w-50 text-center">
+                <p class="fs-55 text-black fw-bold text-shadow mb-0">
+                    Why Choose Jeux Developers
+                </p>
+                <p class="fs-4 mb-0 fw-400">As Your ios Development Partner?</p>
+                <p class="fs-5 text-cadet-grey letter-spacing-3 text-center">
+                    Jeux Developers Takes Pride In Being Part Of 150+ Business Setups And Startups By
+                    Providing Them Top -Notch Website And App Development Solutions, Take A Look At
+                    Our Past Projects.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="d-lg-flex align-items-center mx-4 px-2 mt-5">
+            <div class="col-lg-6">
+                <div class="">
+                    <div class="d-flex align-items-center gap-3 my-4">
+                        <span>
+                            <img src="{{ asset('assets/images/icons/dark-arrow-icon.png') }}" alt=""
+                                class="mt-2" width="40px">
+                        </span>
+                        <p class="text-cadet-grey fs-5 letter-spacing-3 mb-0">We Understand Conventional And Emerging
+                            Technologies And Their use Cases.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 my-4">
+                        <span>
+                            <img src="{{ asset('assets/images/icons/dark-arrow-icon.png') }}" alt=""
+                                class="mt-2" width="40px">
+                        </span>
+                        <p class="text-cadet-grey fs-5 letter-spacing-3 mb-0">We Know How To Ensure Robust Performance
+                            And Scalability Of Digital Assets.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 my-2">
+                        <span>
+                            <img src="{{ asset('assets/images/icons/dark-arrow-icon.png') }}" alt=""
+                                class="mt-2" width="40px">
+                        </span>
+                        <p class="text-cadet-grey fs-5 letter-spacing-3 mb-0">We Have A Team Of Experienced IPhone App
+                            Developers
+                            And O/ A Personnel. Our Sprint Sessions Ensure Quality
+                            Products Before Delivery.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 my-4">
+                        <span>
+                            <img src="{{ asset('assets/images/icons/dark-arrow-icon.png') }}" alt=""
+                                class="mt-2" width="40px">
+                        </span>
+                        <p class="text-cadet-grey fs-5 letter-spacing-3 mb-0">We Enable Organizations In Meeting The
+                            Ever -Evolving
+                            Manifest And Latent Needs Of Their Customers.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 my-4">
+                        <span>
+                            <img src="{{ asset('assets/images/icons/dark-arrow-icon.png') }}" alt=""
+                                class="mt-2" width="40px">
+                        </span>
+                        <p class="text-cadet-grey fs-5 letter-spacing-3 mb-0">We Build Apps That Deliver Great
+                            Experiences To
+                            Users Instead Of Just Features.</p>
+                    </div>
+                    <button class="book-service-btn bg-light-orange btn fs-5 px-4 py-2 mt-3">
+                        Get An IOS App For Your Business!
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <img src="{{ asset('assets/images/android.png') }}" alt="" width="80%">
+            </div>
+        </div>
+        <div class="ms-4 testimonial-section">
+            <p class="fs-4 fw-500 text-dark-orange">
                 Testimonials
             </p>
             <p class="fs-1 fw-bold text-shadow">
@@ -436,7 +466,7 @@
                                 Idea They Will Help You And Give You Advices To Make Things
                                 Better. They Even Did Things Were Not Mentioned In The Plan.
                                 Their Goal Is Always Satisfy You. I Recommend Them Without
-                                Hesitation.
+                                Hesitation. And I'll Surely Work With Them Again Very Soon.
                             </p>
                             <p class="fw-500 letter-spacing-2">
                                 Thanks For All
@@ -507,7 +537,7 @@
                                 New Age Developers HTML
                             </p>
                             <p class="fs-1 fw-bold text-dark-orange">
-                                Eliana Hebrew
+                               Eliana Hebrew
                             </p>
                             <p class="text-dark opacity-9 letter-spacing-2 mb-0">
                                 Patient And understanding And Works Hard To Get You What
@@ -535,212 +565,108 @@
                 </div>
             </div>
         </div>
-        {{-- testimonial code end --}}
-
-        {{-- core services code start --}}
-        <div class="core-services px-lg-5 px-md-3 px-2 py-3 bg-black-opacity mt-5">
-            <p class="fs-1 text-white fw-500 w-100 text-center mt-2 mb-4">
-                Core Services
-            </p>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-12 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{asset('assets/images/mobile-application.png')}}" width="200px" alt="">
-                    <p class="mb-0 text-white fs-4 fw-500 mt-2">Mobile Application</p>
-                    <p class="fs-6 text-white opacity-7">
-                    IOS, Android And Wearable Apps
+        <div class="mx-4">
+            <div class="project-meeting-section mt-5 d-lg-flex justify-content-end align-items-center">
+                <div class="col-lg-6">
+                    <p class="fs-1 text-white text-center fw-bold">
+                        Hire Android App Developers For Top-Tier Product Development.
                     </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{asset('assets/images/website.png')}}" width="200px" alt="">
-                    <p class="mb-0 text-white fs-4 fw-500 mt-2">Website Development</p>
-                    <p class="fs-6 text-white opacity-7">
-                    Customized Website, Admin Panel & Portal
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{asset('assets/images/custom.png')}}" width="200px" alt="">
-                    <p class="mb-0 text-white fs-4 fw-500 mt-2">Custom Solutions</p>
-                    <p class="fs-6 text-white opacity-7">
-                   Startup, Small Business, Customized App And Website
-                    </p>
-                </div>
-            </div>
-        </div>
-        {{-- core services code start --}}
-
-        {{-- latest project code start --}}
-        <div class="latest-projects mt-5">
-            <p class="heading fs-1 text-dark-orange text-shadow fw-bold text-center w-100">Our Latest Projects</p>
-            <div class="ms-lg-5 ms-md-2 ms-1 project-carousal">
-                <div class="project-div p-2">
-                    <img src="{{ asset('assets/images/project1.png') }}" alt="" class="w-100">
-                </div>
-                <div class="project-div p-2">
-                    <img src="{{ asset('assets/images/project2.png') }}" alt="" class="w-100">
-                </div>
-                <div class="project-div p-2">
-                    <img src="{{ asset('assets/images/project3.png') }}" alt="" class="w-100">
-                </div>
-            </div>
-        </div>
-        {{-- latest project code end --}}
-        <div class="work-detail mx-5 mt-5 text-center">
-            {{-- <p class="fs-1 text-dark-orange fw-bold text-shadow">
-                Our Work In Numbers
-            </p>
-            <p class="fs-4 text-cadet-grey letter-spacing-3 text-center">
-                Jeux Developers Takes Pride In Being Part Of 150+ Business Setups And Startups By
-                Providing Them Top -Notch Website And App Development Solutions, Take A Look At
-                Our Past Projects.
-            </p>
-            <div class="row">
-                <div class="col-lg-4 p-2">
-                    <div class="text-center project-number-cards radius-20 py-4">
-                        <p class="numbers fs-2 fw-bold">
-                            750+
-                        </p>
-                        <p class="text fs-4 text-cadet-grey">
-                            Applications Delivered
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 p-2">
-                    <div class="text-center project-number-cards radius-20 py-4">
-                        <p class="numbers fs-2 fw-bold">
-                            200+
-                        </p>
-                        <p class="text fs-4 text-cadet-grey">
-                            Applications Delivered
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 p-2">
-                    <div class="text-center project-number-cards radius-20 py-4">
-                        <p class="numbers fs-2 fw-bold">
-                            30+
-                        </p>
-                        <p class="text fs-4 text-cadet-grey">
-                            Applications Delivered
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-
-        <div class="row mx-4 px-2 mt-5">
-            <div class="col-lg-6 pe-4">
-                <div class="radius-20 border-dotted p-4 bg-light-grey">
-                    <div class="radius-20 p-4 bg-white">
-                        <p class="heading text-shadow fs-1 text-black fw-600">
-                            Book a Free <span class="text-dark-orange">Consultation</span>
-                        </p>
-                        <div class="form-group col-lg-12">
-                            <label for="name" class=""></label>
-                            <input type="text" name="name" id="name"
-                                class="form-control shadow-none radius-10 mt-2 py-3" placeholder="Full Name" required>
+                    <div class="row px-3">
+                        <div class="p-2 col-lg-6 col-md-6 col-12">
+                            <div class="border radius-30 bg-white radius-right-3-important shadow p-3">
+                                <p class="text-dark-orange fs-3 fw-600 text-center mb-0">
+                                    Creating a Brand Identity
+                                </p>
+                                <p class="text-cadet-grey fs-6 fw-400 text-center">
+                                    We Are A Mobile App Development
+                                    Company That Specializes In Crcating
+                                    Android Applications. We Work TO Build
+                                    High-Ouality. Engaging And User-
+                                    Friendly Mobile Apps That Help Your
+                                    Business Grow.
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group col-lg-12">
-                            <label for="name" class=""></label>
-                            <input type="text" name="name" id="name"
-                                class="form-control shadow-none radius-10 mt-2 py-3" placeholder="Email" required>
+                        <div class="p-2 col-lg-6 col-md-6 col-12">
+                            <div class="border radius-30 bg-white radius-left-3-important shadow py-3 px-5">
+                                <p class="text-dark-orange fs-3 fw-600 text-center mb-0">
+                                    Unparalleled Experience
+                                </p>
+                                <p class="text-cadet-grey fs-6 fw-400 text-center">
+                                    Wc Arc A IJX & LJI Design Agency
+                                    That Works With Our Clients TO
+                                    Create Apps. Games And Sites That
+                                    Blend Seamlessly With The Look
+                                    And Feel Of Their Brand.
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group col-lg-12">
-                            <label for="phone" class=""></label>
-                            <input type="text" name="phone" id="phone"
-                                class="form-control shadow-none radius-10 mt-2 py-3" placeholder="Phone Number"
-                                required>
+                        <div class="p-2 col-lg-6 col-md-6 col-12">
+                            <div class="border radius-30 bg-white radius-top-right-3-important shadow py-3 px-4">
+                                <p class="text-dark-orange fs-3 fw-600 text-center mb-0">
+                                    Minimal Yet Impactful Design
+                                </p>
+                                <p class="text-cadet-grey fs-6 fw-400 text-center px-5">
+                                    UX Is The Key To Any Successful App,
+                                    We Work With Our Clients To Create
+                                    Games. Apps And Sites That Blend
+                                    Seamlessly With The Look And Feel Of
+                                    Their Brand.
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group col-lg-12 mt-2">
-                            <label for="description" class="fw-bold"></label>
-                            <textarea name="description" id="description" class="form-control shadow-none radius-20 py-3 mt-2" rows="4"
-                                placeholder="Description"></textarea>
+                        <div class="p-2 col-lg-6 col-md-6 col-12">
+                            <div class="border radius-30 bg-white radius-top-left-3-important shadow p-3">
+                                <p class="text-dark-orange fs-3 fw-600 text-center mb-0">
+                                    Understanding The Market
+                                </p>
+                                <p class="text-cadet-grey fs-6 fw-400 text-center">
+                                    We Make Mobile App Development
+                                    Easier By Understanding How You
+                                    Want To use Your App, And Then
+                                    Making Sure That It Fits Into The
+                                    Industry Or Audience You Are
+                                    Targeting.
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group col-12 mt-2 ms-2">
-                            <input type="checkbox" name="agreement" value="" id="agreement">
-                            <label for="agreement" class="fs-6 form-check-label text-cadet-grey">&nbsp;&nbsp;Share Non
-                                Disclosure Agreement.</label>
-                        </div>
-                        <div class="text-center">
-                            <button class="book-service-btn btn bg-light-orange fs-5 px-5 py-2 mt-3">
-                                Let's Connect!
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 ps-4">
-                <div class="radius-20 border-dotted p-4 bg-light-grey">
-                    <div class="radius-20 p-4">
-                        <p class="heading text-shadow fs-1 text-black fw-600 col-xxl-9">
-                            Result-Driven Software Solutions
-                        </p>
-                        <p class="letter-spacing-3 fs-5 text-cadet-grey">
-                            We Help Our Clients Bring About
-                            Intelligent Automation And Digital
-                            Transformation By Providing The
-                            Right Tools, Software And Services
-                            To Keep Pace With Emerging
-                            Technologies.
-                        </p>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">Accelerating Their Business Processes</p>
-                        </div>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">Acquiring And Retaining Consumers</p>
-                        </div>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">Boosting Customer Engagement</p>
-                        </div>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">Increasing Their Revenue</p>
-                        </div>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">Maximizing Their Impact</p>
-                        </div>
-                        <div class="features d-flex gap-3">
-                            <img src="{{ asset('assets/images/icons/radio-icon.png') }}" alt=""
-                                class="mt-2" width="20px" height="20px">
-                            <p class="text-cadet-grey fs-5">And Setting Industry Standards.</p>
-                        </div>
-                        <p class="text-cadet-grey fs-5 col-xxl-9 mt-3">
-                            What F I se Can Yna Achieve With A Digital Prndur.t
-                            Tail nr-Madp For V Oil r RI 1 qinpqq?
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        @include('include.footer')
+        <div class="discover-section">
+            <div class="position-relative d-flex justify-content-center h-100 w-100">
+                <img src="{{ asset('assets/images/icons/setting.png') }}" class="position-absolute setting-icon"
+                    width="60px" alt="">
+                <img src="{{ asset('assets/images/icons/msg.png') }}" class="position-absolute msg-icon"
+                    width="60px" alt="">
+                <div class="col-lg-4 col-md-6 col-12 position-absolute discover-div">
+                    <div
+                        class="border radius-40 bg-light-orange radius-right-10-important text-center shadow p-5 mx-lg-0 mx-3">
+                        <p class="text-white fs-4 fw-500 text-center">
+                            Discover
+                        </p>
+                        <p class="text-white fs-2 fw-600 text-center px-5">
+                            Master The Art Of Efficient
+                            And Effective Project
+                            Discussion Scheduling With
+                            'Scheduling Success'.
+                        </p>
+                        <button class="book-service-btn btn fs-5 px-4 py-2 mt-3">
+                            Schedule Free Strategy Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="android-leading-footer">
+            @include('include.footer')
+        </div>
     </section>
     @include('include.script')
     <script src="{{ asset('assets/libraries/js/slick.js') }}"></script>
-    <script src="{{ asset('assets/librari es/js/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/libraries/js/slick.min.js') }}"></script>
 
-    <script>
-        $(function() {
-            $('.press').mouseenter(function() {
-                $(this).parent().find('.read-more-btn').addClass("read-more-btn-hover");
-                $(this).parent().find('.read-more-arrow').addClass("read-more-arrow-hover");
-                $(this).closest('.services-card').addClass("services-card-hover");
-            }).mouseleave(function() {
-                $(this).parent().find('.read-more-btn').removeClass("read-more-btn-hover");
-                $(this).parent().find('.read-more-arrow').removeClass("read-more-arrow-hover");
-                $(this).closest('.services-card').removeClass("services-card-hover");
-            });
-        });
-    </script>
     <script>
         $('.multiple-items').slick({
             pauseOnHover: true,
@@ -904,12 +830,12 @@
             ]
         });
     </script>
-    <script>
+    {{-- <script>
         $('.project-carousal').slick({
-            slidesToShow: 2.1,
+            slidesToShow: 1.8,
             slidesToScroll: 1,
         });
-    </script>
+    </script> --}}
     <script>
         const container = document.getElementById("container");
         const boxSize = 38;
@@ -976,49 +902,6 @@
             });
         }
     </script>
-    <script>
-        let scrollTriggered = false;
-        const scrollThreshold = window.innerHeight + 800;
-        const scrollOffset = 1200;
-        const scrollDuration = 6000;
-
-        function handleScroll() {
-            if (!scrollTriggered && window.scrollY >= scrollThreshold) {
-                scrollTriggered = true;
-
-                document.body.classList.add('hidden-scrollbar');
-
-                window.scrollBy({
-                    top: scrollOffset,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-
-                setTimeout(() => {
-                    let startPosition = window.scrollY;
-                    const targetPosition = startPosition - scrollOffset;
-                    const scrollUp = () => {
-                        const scrollStep = 10;
-                        let currentPosition = startPosition;
-
-                        const scrollInterval = setInterval(() => {
-                            currentPosition -= scrollStep;
-                            window.scrollTo(0, Math.max(currentPosition, targetPosition));
-                            if (currentPosition <= targetPosition) {
-                                clearInterval(scrollInterval);
-                                document.body.classList.remove('hidden-scrollbar');
-                            }
-                        }, scrollDuration / (scrollOffset / scrollStep));
-                    };
-
-                    scrollUp();
-                }, 1500);
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll);
-    </script>
-
     <script>
         $('.testimonial-carsoul').slick({
             slidesToShow: 1.8,

@@ -17,4 +17,9 @@ class WebsiteController extends Controller
         $subpage = 'customSoftwarePage';
         return view('pages.custom-software-page', compact('page', 'subpage'));
     }
+    public function androidLeadingPage(){
+        $page = 'services';
+        $subpage = 'androidLeadingPage';
+        return view('pages.android-leading-page', compact('page', 'subpage'));
+    }
 }
